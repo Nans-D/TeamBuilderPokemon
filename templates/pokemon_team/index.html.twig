@@ -1,0 +1,11 @@
+{% extends './base.html.twig' %}
+
+{% block title %}Hello PokemonTeamController!{% endblock %}
+
+{% block body %}
+<div id="team-app" data-pokemon-teams={{ pokemon_teams|json_encode }}></div>
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+{% endblock %}

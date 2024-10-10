@@ -16,11 +16,29 @@ const addIntoTeam = (pokemon) => {
   }
 
   myTeam.value.push(pokemon);
-  console.log(myTeam.value);
 };
 
 const removeFromTeam = (pokemon) => {
   myTeam.value = myTeam.value.filter((p) => p.name !== pokemon.name);
+};
+
+const saveTeam = async () => {
+  try {
+    const response = await fetch("/save_team", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(myTeam.value),
+    });
+    const data = await response.json();
+    console.log(data);
+    if (data.error) {
+      alert(data.error);
+    } else {
+      alert(data.message, data.pokemons);
+    }
+  } catch (error) {}
 };
 
 onMounted(() => {
@@ -56,7 +74,13 @@ onMounted(() => {
         </div>
       </div>
       <div class="d-flex justify-content-center mt-3">
-        <button :disabled="!myTeam.length" class="btn btn-primary">Save</button>
+        <button
+          @click="saveTeam"
+          :disabled="!myTeam.length"
+          class="btn btn-primary"
+        >
+          Save
+        </button>
       </div>
     </section>
     <section class="container pb-5">

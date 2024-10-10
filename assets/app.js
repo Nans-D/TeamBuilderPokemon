@@ -9,7 +9,11 @@ import "./styles/app.css";
 
 import { createApp } from "vue";
 import Index from "./components/index.vue";
+import PokemonTeams from "./components/PokemonTeams.vue";
 
-const app = createApp(Index);
-
-app.mount("#app");
+if (document.getElementById("team-app")) {
+  createApp(PokemonTeams).mount("#team-app");
+}
+if (document.getElementById("app")) {
+  createApp(Index).mount("#app");
+}

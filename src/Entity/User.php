@@ -3,10 +3,13 @@
 namespace App\Entity;
 
 use App\Repository\UserRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: UserRepository::class)]
 #[ORM\Table(name: '`user`')]
@@ -32,7 +35,19 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
      * @var string The hashed password
      */
     #[ORM\Column]
+
     private ?string $password = null;
+
+    /**
+     * @var Collection<int, PokemonTeam>
+     */
+    #[ORM\OneToMany(targetEntity: PokemonTeam::class, mappedBy: 'user', orphanRemoval: true)]
+    private Collection $pokemonTeams;
+
+    public function __construct()
+    {
+        $this->pokemonTeams = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -107,5 +122,35 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     {
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
+    }
+
+    /**
+     * @return Collection<int, PokemonTeam>
+     */
+    public function getPokemonTeams(): Collection
+    {
+        return $this->pokemonTeams;
+    }
+
+    public function addPokemonTeam(PokemonTeam $pokemonTeam): static
+    {
+        if (!$this->pokemonTeams->contains($pokemonTeam)) {
+            $this->pokemonTeams->add($pokemonTeam);
+            $pokemonTeam->setUser($this);
+        }
+
+        return $this;
+    }
+
+    public function removePokemonTeam(PokemonTeam $pokemonTeam): static
+    {
+        if ($this->pokemonTeams->removeElement($pokemonTeam)) {
+            // set the owning side to null (unless already changed)
+            if ($pokemonTeam->getUser() === $this) {
+                $pokemonTeam->setUser(null);
+            }
+        }
+
+        return $this;
     }
 }

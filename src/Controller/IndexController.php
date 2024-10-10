@@ -19,6 +19,8 @@ class IndexController extends AbstractController
     #[Route('/', name: 'app_index')]
     public function index(): Response
     {
+
+
         $directory = $this->getParameter('kernel.project_dir') . '/public/data';
         $responseJson = null;
         if (!file_get_contents($directory . '/pokemons_version_1.json')) {
