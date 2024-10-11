@@ -3,3 +3,22 @@
 - Configuration du form User
 - Configuration du Login + Register
 - Ajout de pokémons dans la BDD et lecture dans une nouvelle page
+
+## WAP-02
+
+- Changement UI site
+- Fixed-top team
+- Reagencement page login
+- Revoir header
+- Revoir ux teambuilder
+
+## WAP-03
+
+- Revoir ui MyTeam
+- Supprimer Team
+
+## WAP-04
+
+- Stats Team
+- Revoir nav links underline
+- If Login, remove buttons Register and Login

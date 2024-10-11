@@ -55,14 +55,15 @@ class PokemonTeamController extends AbstractController
     {
         $user = $this->getUser();
 
+        if (!$user) {
+            return new JsonResponse(['error' => 'You should be logged in'], 401);
+        }
+
         $pokemonTeams = $pokemonTeam->findByExampleField();
         if (count($pokemonTeams) >= 3) {
             return new JsonResponse(['error' => 'You can only have 3 teams'], 400);
         }
 
-        if (!$user) {
-            return new JsonResponse(['error' => 'User not found'], 401);
-        }
 
         // if($user->getPokemonTeams()) {
         // dd($user->getPokemonTeams());

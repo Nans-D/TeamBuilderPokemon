@@ -41,6 +41,22 @@ const saveTeam = async () => {
   } catch (error) {}
 };
 
+document.addEventListener("scroll", () => {
+  const section = document.getElementById("sectionTeamBuilder");
+  const myTeam = document.getElementById("myTeam");
+  const invisibleTeamBuilder = document.getElementById("invisibleTeamBuilder");
+
+  if (window.scrollY > 350) {
+    invisibleTeamBuilder.classList.remove("d-none");
+    section.classList.add("fixed-top");
+    myTeam.classList.add("backgroundTeamBuilder");
+  } else {
+    invisibleTeamBuilder.classList.add("d-none");
+    section.classList.remove("fixed-top");
+    myTeam.classList.remove("backgroundTeamBuilder");
+  }
+});
+
 onMounted(() => {
   const pokemonsData = document.getElementById("app").dataset.pokemons;
 
@@ -52,11 +68,13 @@ onMounted(() => {
 <template>
   <Header />
   <div style="background-color: #111927">
-    <section class="container py-4">
+    <div id="invisibleTeamBuilder" class="d-none" style="height: 224px"></div>
+    <section id="sectionTeamBuilder" class="container py-4">
       <div
         id="myTeam"
-        class="border border-danger row row-cols-3 row-cols-lg-6 justify-content-center"
+        class="row row-cols-3 row-cols-lg-6 justify-content-center rounded"
         :style="myTeam.length > 0 ? 'auto' : 'height: 122px'"
+        style="border: 1px solid #104d87"
       >
         <div
           @click="removeFromTeam(pokemon)"
@@ -94,7 +112,7 @@ onMounted(() => {
           :key="pokemon"
           @click="addIntoTeam(pokemon)"
         >
-          <div class="border border-danger rounded p-2">
+          <div style="border: 1px solid #104d87" class="rounded p-2">
             <div class="d-flex justify-content-center">
               <img :src="pokemon.image" alt="Pokemon" />
             </div>
