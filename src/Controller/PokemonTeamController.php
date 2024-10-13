@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\PokemonTeam;
 use App\Repository\PokemonTeamRepository;
 use Doctrine\ORM\EntityManagerInterface;
+use Doctrine\ORM\Mapping\Entity;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,41 +16,40 @@ class PokemonTeamController extends AbstractController
 
 {
 
+
     #[Route('/pokemon_team', name: 'pokemon_team')]
-    public function index(EntityManagerInterface $em, Request $request, PokemonTeamRepository $pokemonTeam)
+    public function index(PokemonTeamRepository $pokemonTeamRepo)
     {
         $user = $this->getUser();
 
-        $findPokemonTeams = $pokemonTeam->findByExampleField();
+        if (!$user) {
+            return new JsonResponse(['error' => 'User not found'], 401);
+        }
 
+        // Récupère les équipes avec seulement ID, User et les pokémons
+        $findPokemonTeams = $pokemonTeamRepo->findTeamsWithPokemonsByUser($user);
+
+        // Structure des données pour le front-end
         $teamsData = [];
 
         foreach ($findPokemonTeams as $team) {
-            $pokemons = $team->getPokemons(); // Récupère les Pokémon de l'équipe
-            $pokemonDetails = [];
+            // On traite le champ JSON 'pokemons' ici en PHP
+            $pokemons = ($team['pokemons']);
 
-            foreach ($pokemons as $pokemon) {
-                // Supposons que chaque Pokémon est un tableau ou un objet avec 'name' et 'image'
-                $pokemonDetails[] = [
-                    'name' => $pokemon['name'],   // Ou $pokemon->getName() si c'est un objet
-                    'image' => $pokemon['image'], // Ou $pokemon->getImage() si c'est un objet
-                ];
-            }
-
-            // Ajoute l'équipe dans le tableau $teamsData
             $teamsData[] = [
-                'pokemons' => $pokemonDetails
+                'id' => $team['id'],
+                'user_id' => $team['user_id'], // On utilise 'user_id' provenant de la jointure
+                'pokemons' => $pokemons
             ];
-        }
-
-        if (!$user) {
-            return new JsonResponse(['error' => 'User not found'], 401);
         }
 
         return $this->render('pokemon_team/index.html.twig', [
             'pokemon_teams' => $teamsData,
         ]);
     }
+
+
+
     #[Route('/save_team', name: 'save_team', methods: ['POST'])]
     public function saveTeam(EntityManagerInterface $em, Request $request, PokemonTeamRepository $pokemonTeam)
     {
@@ -83,5 +83,34 @@ class PokemonTeamController extends AbstractController
         $em->flush();
 
         return new JsonResponse(['message' => 'Team saved successfully!'], 200);
+    }
+
+    #[Route('/pokemon_team/delete_team/{id}', name: 'delete_team', methods: ['POST'])]
+    public function deleteTeam(EntityManagerInterface $em, Request $request, PokemonTeamRepository $pokemonTeam)
+    {
+
+
+        $user = $this->getUser();
+
+        if (!$user) {
+            return new JsonResponse(['error' => 'User not found'], 401);
+        }
+
+        $data = json_decode($request->getContent(), true);
+
+        if (!isset($data)) {
+            return new JsonResponse(['error' => 'Invalid data'], 400);
+        }
+
+        $pokemonTeam = $pokemonTeam->findOneBy(['id' => $data['id']]);
+
+        if (!$pokemonTeam) {
+            return new JsonResponse(['error' => 'Team not found'], 404);
+        }
+
+        $em->remove($pokemonTeam);
+        $em->flush();
+
+        return new JsonResponse(['message' => 'Team deleted successfully!'], 200);
     }
 }

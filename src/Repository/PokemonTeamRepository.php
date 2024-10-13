@@ -29,6 +29,19 @@ class PokemonTeamRepository extends ServiceEntityRepository
         ;
     }
 
+    public function findTeamsWithPokemonsByUser($user)
+    {
+        return $this->createQueryBuilder('t')
+            ->select('t.id, u.id as user_id, t.pokemons') // On sélectionne l'ID de l'équipe, l'ID de l'utilisateur, et les pokémons
+            ->join('t.user', 'u') // On fait une jointure explicite avec l'entité User
+            ->andWhere('u = :user')
+            ->setParameter('user', $user)
+            ->getQuery()
+            ->getResult();
+    }
+
+
+
     //    public function findOneBySomeField($value): ?PokemonTeam
     //    {
     //        return $this->createQueryBuilder('p')

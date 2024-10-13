@@ -72,7 +72,7 @@ onMounted(() => {
     <section id="sectionTeamBuilder" class="container py-4">
       <div
         id="myTeam"
-        class="row row-cols-3 row-cols-lg-6 justify-content-center rounded"
+        class="row row-cols-3 row-cols-lg-6 justify-content-center rounded p-2"
         :style="myTeam.length > 0 ? 'auto' : 'height: 122px'"
         style="border: 1px solid #104d87"
       >
