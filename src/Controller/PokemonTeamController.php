@@ -9,19 +9,22 @@ use Doctrine\ORM\Mapping\Entity;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-// use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
 class PokemonTeamController extends AbstractController
 
 {
 
-
     #[Route('/pokemon_team', name: 'pokemon_team')]
     public function index(PokemonTeamRepository $pokemonTeamRepo)
     {
         $user = $this->getUser();
-
+        $fileJsonTypeDirectory = '../public/data/type_damages.json';
+        if (!file_exists($fileJsonTypeDirectory)) {
+            return new JsonResponse(['error' => 'File not found'], 401);
+        } else {
+            $fileTypeJson = json_decode(file_get_contents($fileJsonTypeDirectory), true);
+        }
         if (!$user) {
             return new JsonResponse(['error' => 'User not found'], 401);
         }
@@ -43,8 +46,11 @@ class PokemonTeamController extends AbstractController
             ];
         }
 
+        // dd($fileTypeJson, $teamsData);
+
         return $this->render('pokemon_team/index.html.twig', [
             'pokemon_teams' => $teamsData,
+            'types' => $fileTypeJson,
         ]);
     }
 

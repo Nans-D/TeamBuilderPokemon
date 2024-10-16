@@ -20,10 +20,11 @@ class IndexController extends AbstractController
     public function index(): Response
     {
 
+        $user = $this->getUser();  // Vérifie si l'utilisateur est connecté
 
         $directory = $this->getParameter('kernel.project_dir') . '/public/data';
         $responseJson = null;
-        if (!file_get_contents($directory . '/pokemons_version_1.json')) {
+        if (!file_exists($directory . '/pokemons_version_1.json')) {
             $fileJson = $directory . '/pokemons_version_1.json';
 
             $imagesPokemonArray = [];
@@ -33,12 +34,23 @@ class IndexController extends AbstractController
             foreach ($pokemonData['results'] as $name) {
                 $responsePokemonName = $this->pokeApi->pokemon($name['name']);
                 $pokemonDetails = json_decode($responsePokemonName, true);
+                // je peux avoir les stats ici en faisant 
+
+                $typesCompiled = [];
+                foreach ($pokemonDetails['types'] as $types) {
+                    $typesCompiled[] = [
+                        'name' => $types['type']['name'],
+                        'url' => $types['type']['url']
+                    ];
+                }
 
                 $imagesPokemonArray[] = [
                     'name' => $name['name'],
                     'image' => $pokemonDetails['sprites']['front_default'] ?? null, // Utilise l'image par défaut s'il y en a une
+                    'types' => $typesCompiled
                 ];
             }
+
             $directory = $this->getParameter('kernel.project_dir') . '/public/data';
             if (!is_dir($directory)) {
                 mkdir($directory, 0777, true);
@@ -52,9 +64,9 @@ class IndexController extends AbstractController
 
         // Encoder les données en JSON et les enregistrer dans un fichier
 
-
         return $this->render('index/index.html.twig', [
             'pokemons' => json_decode($responseJson),
+            'isAuthentificated' => $user ? true : false,
         ]);
     }
 }

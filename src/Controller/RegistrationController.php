@@ -10,6 +10,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
+
 
 class RegistrationController extends AbstractController
 {
@@ -34,6 +36,8 @@ class RegistrationController extends AbstractController
             // do anything else you need here, like send an email
 
             return $this->redirectToRoute('app_index');
+        } else {
+            return new JsonResponse(['error' => 'Une erreur est survenue lors de l\'enregistrement.']);
         }
 
         return $this->render('registration/register.html.twig', [

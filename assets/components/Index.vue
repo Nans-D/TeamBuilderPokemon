@@ -2,10 +2,23 @@
 import Header from "./Header.vue";
 import { ref } from "vue";
 import { onMounted } from "vue";
+import { useToast } from "vue-toastification";
 
 const pokemons = ref([]);
 const myTeam = ref([]);
+const toast = useToast();
 
+const triggerInfoToast = (type, error) => {
+  if (type == "success") {
+    toast.success("Team Saved!", {
+      timeout: 2000,
+    });
+  } else {
+    toast.error(error, {
+      timeout: 2000,
+    });
+  }
+};
 const addIntoTeam = (pokemon) => {
   if (myTeam.value.includes(pokemon)) {
     return;
@@ -32,13 +45,12 @@ const saveTeam = async () => {
       body: JSON.stringify(myTeam.value),
     });
     const data = await response.json();
-    console.log(data);
     if (data.error) {
-      alert(data.error);
+      triggerInfoToast("danger", data.error);
     } else {
-      alert(data.message, data.pokemons);
+      triggerInfoToast("success");
     }
-  } catch (error) {}
+  } catch {}
 };
 
 document.addEventListener("scroll", () => {

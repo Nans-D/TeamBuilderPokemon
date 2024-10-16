@@ -3,26 +3,36 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+// use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Security\Csrf\CsrfToken;
+use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class SecurityController extends AbstractController
 {
     #[Route(path: '/login', name: 'app_login')]
-    public function login(AuthenticationUtils $authenticationUtils, Request $request): Response
+    public function login(CsrfTokenManagerInterface $csrfTokenManager, AuthenticationUtils $authenticationUtils, Request $request): Response
     {
-        // if ($this->getUser()) {
-        //     return $this->redirectToRoute('target_path');
-        // }
+
+        $csrfToken = $csrfTokenManager->getToken('authenticate')->getValue();
+
+        if ($this->getUser()) {
+            return $this->redirectToRoute('app_index');
+        }
 
         // get the login error if there is one
-        // $error = $authenticationUtils->getLastAuthenticationError();
-        // last username entered by the user
-        // $lastUsername = $authenticationUtils->getLastUsername();
+        $errorResponse = null;
+        if ($error = $authenticationUtils->getLastAuthenticationError()) {
+            $errorResponse = $error->getMessage();
+        }
 
-        return $this->render('security/login.html.twig');
+        return $this->render('security/login.html.twig', [
+            'csrf_token' => $csrfToken,
+            'error' => $errorResponse,
+        ]);
     }
 
     #[Route(path: '/logout', name: 'app_logout')]

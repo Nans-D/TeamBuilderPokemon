@@ -22,10 +22,12 @@
 - Stats Team
 - Revoir nav links underline
 - If Login, remove buttons Register and Login
+- Refonte ui Tableau + button see More
 
 ## WAP-05
 
 - Faire ses propres alertes
+- Revoir les erreurs de connexion avec l'alert
 
 ## WAP-06
 
@@ -34,6 +36,7 @@
 ## WAP-07
 
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
+- Revoir comment l'errorResponse est envoyé
 
 ## WAP-08
 

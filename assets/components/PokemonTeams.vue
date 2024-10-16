@@ -1,14 +1,30 @@
 <script setup>
 import { ref } from "vue";
 import Header from "./Header.vue";
+import Table from "./Table.vue";
 
 const pokemonTeams = ref([]);
+const types = ref([]);
+
+// a modifier sur false
+const textButtonSeeOrNot = ref("See more");
 
 const pokemonTeamsData =
   document.getElementById("team-app").dataset.pokemonTeams;
 
 if (pokemonTeamsData) {
-  pokemonTeams.value = JSON.parse(pokemonTeamsData);
+  const parsedTeams = JSON.parse(pokemonTeamsData);
+  pokemonTeams.value = parsedTeams.map((team) => ({
+    ...team,
+    seeMore: false,
+  }));
+  textButtonSeeOrNot.value = parsedTeams.map(() => "See more");
+}
+
+const typesData = document.getElementById("team-app").dataset.types;
+
+if (typesData) {
+  types.value = JSON.parse(typesData);
 }
 
 const deleteTeam = (id) => {
@@ -21,17 +37,26 @@ const deleteTeam = (id) => {
     body: JSON.stringify({ id: id }),
   });
 };
+
+const seeMore = (team) => {
+  // Inverser l'état `seeMore` de l'équipe sélectionnée
+  team.seeMore = !team.seeMore;
+
+  // Changer le texte du bouton en fonction de l'état `seeMore`
+  const index = pokemonTeams.value.findIndex((p) => p.id === team.id);
+  textButtonSeeOrNot.value[index] = team.seeMore ? "See less" : "See more";
+};
 </script>
 
 <template>
   <Header />
-  <div style="background-color: #111927; height: 100vh">
+  <div style="background-color: #111927">
     <div class="container py-4">
       <div class="text-light text-center" v-if="pokemonTeams.length <= 0">
         No teams
       </div>
       <div
-        v-for="pokemonTeam in pokemonTeams"
+        v-for="(pokemonTeam, teamIndex) in pokemonTeams"
         :key="pokemonTeam.id"
         class="mb-4"
       >
@@ -51,8 +76,17 @@ const deleteTeam = (id) => {
             </div>
           </div>
         </div>
+        <Table
+          id="tableComponent"
+          class="mt-3"
+          v-show="pokemonTeam.seeMore"
+          :types="types"
+          :pokemonTeam="pokemonTeam"
+        />
         <div class="d-flex justify-content-center gap-3 p-3">
-          <button class="btn btn-primary">See more</button>
+          <button @click="seeMore(pokemonTeam)" class="btn btn-primary">
+            {{ textButtonSeeOrNot[teamIndex] }}
+          </button>
           <button @click="deleteTeam(pokemonTeam.id)" class="btn btn-danger">
             Delete
           </button>

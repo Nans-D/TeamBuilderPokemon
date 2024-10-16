@@ -1,3 +1,26 @@
 .backgroundTeamBuilder {
   background-color: #111927;
 }
+
+.dark-blue-box {
+  background-color: lightblue;
+}
+
+.light-blue-box {
+  background-color: darkblue;
+}
+
+tr,
+th,
+td {
+  border: 1px solid #104d87 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #003362 !important;
+}
+
+tr > th,
+tr > td {
+  padding: 10px;
+}
