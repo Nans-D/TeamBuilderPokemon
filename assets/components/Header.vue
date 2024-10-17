@@ -75,7 +75,7 @@ onBeforeUnmount(() => {
               >Login</a
             >
           </li>
-          <li v-if="isAuthentificated">
+          <li v-if="!isAuthentificated">
             <a
               class="link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/logout"
