@@ -62,6 +62,7 @@ document.addEventListener("scroll", () => {
     invisibleTeamBuilder.classList.remove("d-none");
     section.classList.add("fixed-top");
     myTeam.classList.add("backgroundTeamBuilder");
+    section.classList.add("z-1");
   } else {
     invisibleTeamBuilder.classList.add("d-none");
     section.classList.remove("fixed-top");

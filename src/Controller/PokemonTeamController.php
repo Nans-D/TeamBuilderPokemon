@@ -20,13 +20,16 @@ class PokemonTeamController extends AbstractController
     {
         $user = $this->getUser();
         $fileJsonTypeDirectory = '../public/data/type_damages.json';
+
         if (!file_exists($fileJsonTypeDirectory)) {
-            return new JsonResponse(['error' => 'File not found'], 401);
+
+            return $this->redirectToRoute('app_index');
         } else {
             $fileTypeJson = json_decode(file_get_contents($fileJsonTypeDirectory), true);
         }
+
         if (!$user) {
-            return new JsonResponse(['error' => 'User not found'], 401);
+            return $this->redirectToRoute('app_index');
         }
 
         // Récupère les équipes avec seulement ID, User et les pokémons
@@ -65,7 +68,7 @@ class PokemonTeamController extends AbstractController
             return new JsonResponse(['error' => 'You should be logged in'], 401);
         }
 
-        $pokemonTeams = $pokemonTeam->findByExampleField();
+        $pokemonTeams = $pokemonTeam->findByExampleField($user);
         if (count($pokemonTeams) >= 3) {
             return new JsonResponse(['error' => 'You can only have 3 teams'], 400);
         }

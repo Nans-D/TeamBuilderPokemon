@@ -61,11 +61,11 @@ const seeMore = (team) => {
         class="mb-4"
       >
         <div class="rounded p-2" style="border: 1px solid #104d87">
-          <div class="d-flex justify-content-center">
+          <div class="row justify-content-center">
             <div
               v-for="(pokemon, index) in pokemonTeam.pokemons"
               :key="index"
-              class="m-2"
+              class="col-4 col-md-2"
             >
               <img :src="pokemon.image" :alt="pokemon.name" />
               <div class="text-light text-center">

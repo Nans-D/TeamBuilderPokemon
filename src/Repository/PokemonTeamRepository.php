@@ -19,10 +19,13 @@ class PokemonTeamRepository extends ServiceEntityRepository
     /**
      * @return PokemonTeam[] Returns an array of PokemonTeam objects
      */
-    public function findByExampleField(): array
+    public function findByExampleField($user): array
     {
         return $this->createQueryBuilder('p')
             ->orderBy('p.id', 'ASC')
+            ->join('p.user', 'u')
+            ->where('u.id = :user_id')
+            ->setParameter('user_id', $user->getId())
             ->setMaxResults(10)
             ->getQuery()
             ->getResult()
