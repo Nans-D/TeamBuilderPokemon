@@ -34,6 +34,7 @@ class IndexController extends AbstractController
             foreach ($pokemonData['results'] as $name) {
                 $responsePokemonName = $this->pokeApi->pokemon($name['name']);
                 $pokemonDetails = json_decode($responsePokemonName, true);
+
                 // je peux avoir les stats ici en faisant 
 
                 $typesCompiled = [];
@@ -45,6 +46,7 @@ class IndexController extends AbstractController
                 }
 
                 $imagesPokemonArray[] = [
+                    'id' => $pokemonDetails['id'],
                     'name' => $name['name'],
                     'image' => $pokemonDetails['sprites']['front_default'] ?? null, // Utilise l'image par défaut s'il y en a une
                     'types' => $typesCompiled
