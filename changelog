@@ -45,6 +45,10 @@
 
 ## WAP-08
 
+- Améliorer les stats
+
+## WAP-09
+
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
