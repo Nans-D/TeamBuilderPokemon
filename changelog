@@ -40,9 +40,11 @@
 
 ## WAP-07
 
-- Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
-- Revoir comment l'errorResponse est envoyé
+- Hello vue 3 ! + favicon
+- Voir stats + ajouter sur index
 
 ## WAP-08
 
+- Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
+- Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
