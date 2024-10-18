@@ -9,6 +9,10 @@ const myTeam = ref([]);
 const toast = useToast();
 const dataApiPokemon = ref({});
 const secondApiData = ref({});
+const evolutionApiData = ref({});
+const urlFromSpecies = ref("");
+const arrayEvolutions = ref([]);
+const urlSpecies = ref([]);
 
 const triggerInfoToast = (type, error) => {
   if (type == "success") {
@@ -32,7 +36,15 @@ const addIntoTeam = async (pokemon) => {
 
   myTeam.value.push(pokemon);
 
+  let loadingToast;
+
   try {
+    // Affiche un toast de chargement
+    loadingToast = toast.info("Fetching Pokémon data...", {
+      timeout: false, // Désactiver le timeout pour qu'il reste visible pendant le chargement
+    });
+
+    // Fetch Pokémon data
     const response = await fetch(
       `https://pokeapi.co/api/v2/pokemon/${
         myTeam.value[myTeam.value.length - 1].id
@@ -43,9 +55,12 @@ const addIntoTeam = async (pokemon) => {
         },
       }
     );
+    if (!response.ok) {
+      throw new Error(`Failed to fetch Pokémon data: ${response.statusText}`);
+    }
     dataApiPokemon.value = await response.json();
 
-    // get type image
+    // Fetch type image
     const secondResponse = await fetch(
       `https://pokeapi.co/api/v2/type/${dataApiPokemon.value["types"][0]["type"]["name"]}`,
       {
@@ -54,8 +69,118 @@ const addIntoTeam = async (pokemon) => {
         },
       }
     );
+    if (!secondResponse.ok) {
+      throw new Error(
+        `Failed to fetch type data: ${secondResponse.statusText}`
+      );
+    }
     secondApiData.value = await secondResponse.json();
-  } catch (error) {}
+
+    // Fetch evolution chain
+    const speciesResponse = await fetch(
+      `https://pokeapi.co/api/v2/pokemon-species/${
+        myTeam.value[myTeam.value.length - 1].name
+      }`,
+      {
+        headers: {
+          "Content-type": "application/json",
+        },
+      }
+    );
+    if (!speciesResponse.ok) {
+      throw new Error(
+        `Failed to fetch Pokémon species data: ${speciesResponse.statusText}`
+      );
+    }
+
+    urlFromSpecies.value = await speciesResponse.json();
+
+    const evolutionResponse = await fetch(
+      urlFromSpecies.value["evolution_chain"]["url"],
+      {
+        headers: {
+          "Content-type": "application/json",
+        },
+      }
+    );
+    if (!evolutionResponse.ok) {
+      throw new Error(
+        `Failed to fetch evolution chain: ${evolutionResponse.statusText}`
+      );
+    }
+    evolutionApiData.value = await evolutionResponse.json();
+
+    // Populate arrayEvolutions
+    arrayEvolutions.value = [];
+    if (
+      evolutionApiData.value["chain"] &&
+      evolutionApiData.value["chain"]["species"]
+    ) {
+      arrayEvolutions.value.push({
+        name: evolutionApiData.value["chain"]["species"]["name"],
+        url: evolutionApiData.value["chain"]["species"]["url"],
+      });
+    }
+
+    if (
+      evolutionApiData.value["chain"]["evolves_to"] &&
+      evolutionApiData.value["chain"]["evolves_to"].length > 0
+    ) {
+      arrayEvolutions.value.push({
+        name: evolutionApiData.value["chain"]["evolves_to"][0]["species"][
+          "name"
+        ],
+        url: evolutionApiData.value["chain"]["evolves_to"][0]["species"]["url"],
+      });
+
+      if (
+        evolutionApiData.value["chain"]["evolves_to"][0]["evolves_to"] &&
+        evolutionApiData.value["chain"]["evolves_to"][0]["evolves_to"].length >
+          0
+      ) {
+        arrayEvolutions.value.push({
+          name: evolutionApiData.value["chain"]["evolves_to"][0][
+            "evolves_to"
+          ][0]["species"]["name"],
+          url: evolutionApiData.value["chain"]["evolves_to"][0][
+            "evolves_to"
+          ][0]["species"]["url"],
+        });
+      }
+    }
+
+    // Fetch data for each evolution
+    urlSpecies.value.length = 0;
+    for (let evolution of arrayEvolutions.value) {
+      if (evolution.url) {
+        try {
+          const evolutionResponse = await fetch(evolution.url, {
+            headers: {
+              "Content-type": "application/json",
+            },
+          });
+          if (!evolutionResponse.ok) {
+            throw new Error(
+              `Failed to fetch evolution data: ${evolutionResponse.statusText}`
+            );
+          }
+          urlSpecies.value.push(await evolutionResponse.json());
+        } catch (error) {
+          console.error(`Error fetching data for ${evolution.name}:`, error);
+        }
+      } else {
+        console.log(`${evolution.name} does not have a URL.`);
+      }
+    }
+
+    // Succès : Fermer le toast de chargement et afficher un toast de succès
+    toast.dismiss(loadingToast);
+    toast.success("Pokémon data fetched successfully!");
+  } catch (error) {
+    // En cas d'erreur, on ferme le toast de chargement et affiche un toast d'erreur
+    toast.dismiss(loadingToast);
+    toast.error(`Error fetching data: ${error.message}`);
+  }
 };
 
 const removeFromTeam = (pokemon) => {
@@ -200,7 +325,7 @@ onMounted(() => {
         v-show="Object.keys(dataApiPokemon).length > 0"
       >
         <div class="col-4 col-lg-12">
-          <div>
+          <div class="row text-center">
             <div class="col-12 col-lg-4">
               <img
                 :src="
@@ -251,6 +376,23 @@ onMounted(() => {
               </tr>
             </tbody>
           </table>
+        </div>
+        <div class="col-12 d-none d-lg-block pt-3">
+          <div class="row justify-content-center" v-if="urlSpecies.length > 0">
+            <div
+              class="col-3 p-0"
+              v-for="specie in urlSpecies"
+              :key="specie.id"
+            >
+              <img
+                v-if="pokemons[specie.id - 1] && pokemons[specie.id - 1].image"
+                :src="pokemons[specie.id - 1].image"
+                alt="Pokemon"
+                class="bg bg-danger rounded-circle"
+              />
+              <div v-else class="d-none"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
