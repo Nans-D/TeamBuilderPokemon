@@ -75,6 +75,7 @@ const addIntoTeam = async (pokemon) => {
       );
     }
     secondApiData.value = await secondResponse.json();
+    console.log(secondApiData.value);
 
     // Fetch evolution chain
     const speciesResponse = await fetch(
@@ -164,7 +165,11 @@ const addIntoTeam = async (pokemon) => {
               `Failed to fetch evolution data: ${evolutionResponse.statusText}`
             );
           }
-          urlSpecies.value.push(await evolutionResponse.json());
+
+          const test = await evolutionResponse.json();
+          if (test.id <= 151) {
+            urlSpecies.value.push(test);
+          }
         } catch (error) {
           console.error(`Error fetching data for ${evolution.name}:`, error);
         }
@@ -175,7 +180,9 @@ const addIntoTeam = async (pokemon) => {
 
     // Succès : Fermer le toast de chargement et afficher un toast de succès
     toast.dismiss(loadingToast);
-    toast.success("Pokémon data fetched successfully!");
+    toast.success("Pokémon data fetched successfully!", {
+      timeout: 2000,
+    });
   } catch (error) {
     // En cas d'erreur, on ferme le toast de chargement et affiche un toast d'erreur
     toast.dismiss(loadingToast);
@@ -324,9 +331,9 @@ onMounted(() => {
         class="row sticky-top p-3 p-lg-0"
         v-show="Object.keys(dataApiPokemon).length > 0"
       >
-        <div class="col-4 col-lg-12">
+        <div class="col-4 col-lg-12 align-self-center">
           <div class="row text-center">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 p-0 mx-auto" style="width: 96px">
               <img
                 :src="
                   dataApiPokemon['sprites']
@@ -334,11 +341,12 @@ onMounted(() => {
                     : ''
                 "
                 alt=""
+                style="width: 100%"
               />
             </div>
-            <div class="col-12 col-lg-8 align-self-center">
+            <div class="col-12 col-lg-8 mx-auto align-self-center">
               <div class="row">
-                <div class="col-12">
+                <div class="col-12" style="font-size: 12px">
                   {{
                     dataApiPokemon["name"]
                       ? dataApiPokemon["name"].charAt(0).toUpperCase() +
@@ -350,9 +358,9 @@ onMounted(() => {
                   <img
                     :src="
                       secondApiData['sprites']
-                        ? secondApiData['sprites']['generation-iii']['emerald'][
-                            'name_icon'
-                          ]
+                        ? secondApiData['sprites']['generation-vi'][
+                            'omega-ruby-alpha-sapphire'
+                          ]['name_icon']
                         : ''
                     "
                     alt=""
@@ -362,7 +370,7 @@ onMounted(() => {
             </div>
           </div>
         </div>
-        <div id="arrayStats" class="col-8 col-lg-12">
+        <div id="arrayStats" class="col-8 col-lg-12 pt-3">
           <table class="w-100">
             <tbody>
               <!-- Boucle sur les stats pour afficher chaque nom et sa valeur dans deux colonnes -->
@@ -380,7 +388,7 @@ onMounted(() => {
         <div class="col-12 d-none d-lg-block pt-3">
           <div class="row justify-content-center" v-if="urlSpecies.length > 0">
             <div
-              class="col-3 p-0"
+              class="col-3 p-0 d-flex justify-content-center"
               v-for="specie in urlSpecies"
               :key="specie.id"
             >
@@ -388,7 +396,14 @@ onMounted(() => {
                 v-if="pokemons[specie.id - 1] && pokemons[specie.id - 1].image"
                 :src="pokemons[specie.id - 1].image"
                 alt="Pokemon"
-                class="bg bg-danger rounded-circle"
+                class=""
+                style="
+                  width: 70px;
+                  border: 2px solid #104d87;
+                  border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                "
               />
               <div v-else class="d-none"></div>
             </div>
