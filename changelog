@@ -51,6 +51,10 @@
 
 ## WAP-09
 
+- Alléger le code
+
+## WAP-10
+
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
