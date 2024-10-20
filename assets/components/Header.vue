@@ -2,6 +2,23 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
 const burgerMenuButton = ref(false);
+const selectedVersion = ref(null);
+
+const initVersionFromUrl = () => {
+  const url = window.location.pathname;
+  const versionId = url.split("/").pop(); // Obtient la dernière partie de l'URL (ID)
+  if (["1", "2", "3", "4"].includes(versionId)) {
+    selectedVersion.value = versionId;
+  } else {
+    selectedVersion.value = "1"; // Valeur par défaut si l'ID n'est pas valide
+  }
+};
+
+// Fonction pour rediriger vers la route Symfony en fonction de la version sélectionnée
+const version = () => {
+  const versionId = selectedVersion.value;
+  window.location.href = `/${versionId}`;
+};
 
 const toggleBurgerMenu = () => {
   burgerMenuButton.value = !burgerMenuButton.value;
@@ -29,6 +46,7 @@ const handleClickOutside = (e) => {
 
 onMounted(() => {
   document.addEventListener("click", handleClickOutside);
+  initVersionFromUrl();
 });
 
 onBeforeUnmount(() => {
@@ -49,6 +67,18 @@ onBeforeUnmount(() => {
             alt=""
             style="width: 120px"
         /></a>
+
+        <select
+          class="form-select"
+          v-model="selectedVersion"
+          id="selectVersion"
+          @change="version"
+        >
+          <option value="1">Red, Blue, Yellow</option>
+          <option value="2">Gold, Silver, Crystal</option>
+          <option value="3">Ruby, Sapphire, Emerald</option>
+          <option value="4">Diamond, Pearl, Platinum</option>
+        </select>
       </div>
       <!-- test -->
       <ul
