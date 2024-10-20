@@ -13,6 +13,7 @@ const evolutionApiData = ref({});
 const urlFromSpecies = ref("");
 const arrayEvolutions = ref([]);
 const urlSpecies = ref([]);
+const showSheets = ref(true);
 
 const triggerInfoToast = (type, error) => {
   if (type == "success") {
@@ -25,12 +26,21 @@ const triggerInfoToast = (type, error) => {
     });
   }
 };
-const addIntoTeam = async (pokemon) => {
-  if (myTeam.value.includes(pokemon)) {
-    return;
-  }
 
-  if (myTeam.value.length >= 6) {
+const fetchPokemonsData = async (url) => {
+  const response = await fetch(url, {
+    headers: {
+      "Content-type": "application/json",
+    },
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch pokemons data: ${response.statusText}`);
+  }
+  return await response.json();
+};
+
+const addIntoTeam = async (pokemon) => {
+  if (myTeam.value.includes(pokemon) || myTeam.value.length >= 6) {
     return;
   }
 
@@ -45,73 +55,30 @@ const addIntoTeam = async (pokemon) => {
     });
 
     // Fetch Pokémon data
-    const response = await fetch(
+    dataApiPokemon.value = await fetchPokemonsData(
       `https://pokeapi.co/api/v2/pokemon/${
         myTeam.value[myTeam.value.length - 1].id
-      }`,
-      {
-        headers: {
-          "Content-type": "application/json",
-        },
-      }
+      }`
     );
-    if (!response.ok) {
-      throw new Error(`Failed to fetch Pokémon data: ${response.statusText}`);
-    }
-    dataApiPokemon.value = await response.json();
 
     // Fetch type image
-    const secondResponse = await fetch(
-      `https://pokeapi.co/api/v2/type/${dataApiPokemon.value["types"][0]["type"]["name"]}`,
-      {
-        headers: {
-          "Content-type": "application/json",
-        },
-      }
+    secondApiData.value = await fetchPokemonsData(
+      `https://pokeapi.co/api/v2/type/${dataApiPokemon.value["types"][0]["type"]["name"]}`
     );
-    if (!secondResponse.ok) {
-      throw new Error(
-        `Failed to fetch type data: ${secondResponse.statusText}`
-      );
-    }
-    secondApiData.value = await secondResponse.json();
-    console.log(secondApiData.value);
 
-    // Fetch evolution chain
-    const speciesResponse = await fetch(
+    // Fetch Pokémon species data
+    urlFromSpecies.value = await fetchPokemonsData(
       `https://pokeapi.co/api/v2/pokemon-species/${
         myTeam.value[myTeam.value.length - 1].name
-      }`,
-      {
-        headers: {
-          "Content-type": "application/json",
-        },
-      }
+      }`
     );
-    if (!speciesResponse.ok) {
-      throw new Error(
-        `Failed to fetch Pokémon species data: ${speciesResponse.statusText}`
-      );
-    }
 
-    urlFromSpecies.value = await speciesResponse.json();
-
-    const evolutionResponse = await fetch(
-      urlFromSpecies.value["evolution_chain"]["url"],
-      {
-        headers: {
-          "Content-type": "application/json",
-        },
-      }
+    // Fetch evolution chain
+    evolutionApiData.value = await fetchPokemonsData(
+      urlFromSpecies.value["evolution_chain"]["url"]
     );
-    if (!evolutionResponse.ok) {
-      throw new Error(
-        `Failed to fetch evolution chain: ${evolutionResponse.statusText}`
-      );
-    }
-    evolutionApiData.value = await evolutionResponse.json();
 
-    // Populate arrayEvolutions
+    // Check evolutions
     arrayEvolutions.value = [];
     if (
       evolutionApiData.value["chain"] &&
@@ -154,27 +121,12 @@ const addIntoTeam = async (pokemon) => {
     urlSpecies.value.length = 0;
     for (let evolution of arrayEvolutions.value) {
       if (evolution.url) {
-        try {
-          const evolutionResponse = await fetch(evolution.url, {
-            headers: {
-              "Content-type": "application/json",
-            },
-          });
-          if (!evolutionResponse.ok) {
-            throw new Error(
-              `Failed to fetch evolution data: ${evolutionResponse.statusText}`
-            );
-          }
-
-          const test = await evolutionResponse.json();
-          if (test.id <= 151) {
-            urlSpecies.value.push(test);
-          }
-        } catch (error) {
-          console.error(`Error fetching data for ${evolution.name}:`, error);
+        const test = await fetchPokemonsData(evolution.url);
+        if (test.id <= 151) {
+          urlSpecies.value.push(test);
         }
       } else {
-        console.log(`${evolution.name} does not have a URL.`);
+        throw new Error(`${evolution.name} does not have a URL.`);
       }
     }
 
@@ -220,21 +172,21 @@ const saveTeam = async () => {
 };
 
 document.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
   const section = document.getElementById("sectionTeamBuilder");
   const myTeam = document.getElementById("myTeam");
   const invisibleTeamBuilder = document.getElementById("invisibleTeamBuilder");
 
-  if (window.scrollY > 350) {
-    invisibleTeamBuilder.classList.remove("d-none");
-    section.classList.add("fixed-custom");
-    myTeam.classList.add("backgroundTeamBuilder");
-    section.classList.add("z-1");
-  }
-  if (window.scrollY < 580) {
-    invisibleTeamBuilder.classList.add("d-none");
-    section.classList.remove("fixed-custom");
-    myTeam.classList.remove("backgroundTeamBuilder");
-  }
+  const isScrolled = scrollY > 350;
+  const isNotFullyScrolled = scrollY < 580;
+
+  // Gérer l'affichage de l'élément invisible et la position fixe
+  invisibleTeamBuilder.classList.toggle("d-none", !isScrolled);
+  section.classList.toggle("fixed-custom", isScrolled);
+  myTeam.classList.toggle("backgroundTeamBuilder", isScrolled);
+
+  // Gérer la profondeur visuelle
+  section.classList.toggle("z-1", isScrolled && isNotFullyScrolled);
 });
 
 onMounted(() => {
@@ -245,6 +197,7 @@ onMounted(() => {
   }
 });
 </script>
+
 <template>
   <div class="row m-0" style="max-width: 100%; min-height: 100vh">
     <div class="col-12 col-lg-9 position-relative">
@@ -296,6 +249,14 @@ onMounted(() => {
             </div>
           </section>
           <section class="container pb-5">
+            <div class="d-flex d-lg-none gap-2">
+              <div class="checkbox-wrapper-3">
+                <input v-model="showSheets" type="checkbox" id="cbx-3" />
+                <label for="cbx-3" class="toggle"><span></span></label>
+              </div>
+              <div class="text-light">Display Sheets</div>
+            </div>
+
             <ul
               class="row row-cols-2 row-cols-md-4 row-cols-lg-auto justify-content-center p-0"
             >
@@ -323,7 +284,11 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <div id="fixedMobileBottom" class="col-12 col-lg-3 text-light">
+    <div
+      v-show="showSheets"
+      id="fixedMobileBottom"
+      class="col-12 col-lg-3 text-light"
+    >
       <div v-show="Object.keys(dataApiPokemon).length <= 0">
         No selected pokemon
       </div>
@@ -420,6 +385,7 @@ onMounted(() => {
     border-left: 1px solid #104d87;
   }
 }
+
 @media (max-width: 991.98px) {
   #pokemonImageTeam {
     width: 50px;
@@ -435,9 +401,77 @@ onMounted(() => {
     font-size: 10px;
   }
 }
+
 .fixed-custom {
   position: sticky;
   top: 20px;
   z-index: 1;
+}
+
+.checkbox-wrapper-3 input[type="checkbox"] {
+  visibility: hidden;
+  display: none;
+}
+
+.checkbox-wrapper-3 .toggle {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-3 .toggle:before {
+  content: "";
+  position: relative;
+  top: 3px;
+  left: 3px;
+  width: 34px;
+  height: 14px;
+  display: block;
+  background: #9a9999;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+.checkbox-wrapper-3 .toggle span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+  transition: all 0.2s ease;
+}
+.checkbox-wrapper-3 .toggle span:before {
+  content: "";
+  position: absolute;
+  display: block;
+  margin: -18px;
+  width: 56px;
+  height: 56px;
+  background: #3b9eff;
+  border-radius: 50%;
+  transform: scale(0);
+  opacity: 1;
+  pointer-events: none;
+}
+
+.checkbox-wrapper-3 #cbx-3:checked + .toggle:before {
+  background: #3b9eff;
+}
+.checkbox-wrapper-3 #cbx-3:checked + .toggle span {
+  background: #104d87;
+  transform: translateX(20px);
+  transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+  box-shadow: 0 3px 8px #0d2847;
+}
+.checkbox-wrapper-3 #cbx-3:checked + .toggle span:before {
+  transform: scale(1);
+  opacity: 0;
+  transition: all 0.4s ease;
 }
 </style>

@@ -56,6 +56,10 @@
 
 ## WAP-10
 
+Gérer la 2eme version et la 3eme version
+
+## WAP-11
+
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
