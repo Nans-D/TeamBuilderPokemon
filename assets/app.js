@@ -16,7 +16,7 @@ import Login from "./components/Login.vue";
 import "vue-toastification/dist/index.css";
 
 const options = {
-  position: "top-right",
+  position: "bottom-right",
   timeout: 5000,
   closeOnClick: true,
   pauseOnFocusLoss: true,
