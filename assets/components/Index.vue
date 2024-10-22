@@ -14,6 +14,8 @@ const urlFromSpecies = ref("");
 const arrayEvolutions = ref([]);
 const urlSpecies = ref([]);
 const showSheets = ref(true);
+let pokemonsNewArray = ref({});
+const currentRequestId = ref(0);
 
 const triggerInfoToast = (type, error) => {
   if (type == "success") {
@@ -40,7 +42,16 @@ const fetchPokemonsData = async (url) => {
 };
 
 const addIntoTeam = async (pokemon) => {
-  if (myTeam.value.includes(pokemon) || myTeam.value.length >= 6) {
+  if (myTeam.value.length >= 6) {
+    toast.error("You can't add more than 6 Pokémon in your team!", {
+      timeout: 2000,
+    });
+    return;
+  }
+  if (myTeam.value.includes(pokemon)) {
+    toast.error("Bro, don't play the same pokemon, think about spirit", {
+      timeout: 2000,
+    });
     return;
   }
 
@@ -54,6 +65,8 @@ const addIntoTeam = async (pokemon) => {
       timeout: false, // Désactiver le timeout pour qu'il reste visible pendant le chargement
     });
 
+    const requestId = ++currentRequestId.value;
+
     // Fetch Pokémon data
     dataApiPokemon.value = await fetchPokemonsData(
       `https://pokeapi.co/api/v2/pokemon/${
@@ -61,11 +74,20 @@ const addIntoTeam = async (pokemon) => {
       }`
     );
 
+    if (requestId !== currentRequestId.value) {
+      toast.dismiss(loadingToast);
+      return;
+    }
+
     // Fetch type image
     secondApiData.value = await fetchPokemonsData(
       `https://pokeapi.co/api/v2/type/${dataApiPokemon.value["types"][0]["type"]["name"]}`
     );
 
+    if (requestId !== currentRequestId.value) {
+      toast.dismiss(loadingToast);
+      return;
+    }
     // Fetch Pokémon species data
     urlFromSpecies.value = await fetchPokemonsData(
       `https://pokeapi.co/api/v2/pokemon-species/${
@@ -73,11 +95,19 @@ const addIntoTeam = async (pokemon) => {
       }`
     );
 
+    if (requestId !== currentRequestId.value) {
+      toast.dismiss(loadingToast);
+      return;
+    }
     // Fetch evolution chain
     evolutionApiData.value = await fetchPokemonsData(
       urlFromSpecies.value["evolution_chain"]["url"]
     );
 
+    if (requestId !== currentRequestId.value) {
+      toast.dismiss(loadingToast);
+      return;
+    }
     // Check evolutions
     arrayEvolutions.value = [];
     if (
@@ -118,16 +148,40 @@ const addIntoTeam = async (pokemon) => {
     }
 
     // Fetch data for each evolution
-    urlSpecies.value.length = 0;
-    for (let evolution of arrayEvolutions.value) {
-      if (evolution.url) {
-        const test = await fetchPokemonsData(evolution.url);
-        if (test.id <= 151) {
-          urlSpecies.value.push(test);
+
+    if (
+      urlFromSpecies.value["generation"]["name"] === "generation-i" &&
+      window.location.href.includes("1")
+    ) {
+      urlSpecies.value.length = 0;
+      for (let evolution of arrayEvolutions.value) {
+        if (evolution.url) {
+          const test = await fetchPokemonsData(evolution.url);
+          if (test.id < 151) {
+            urlSpecies.value.push(test);
+          }
+        } else {
+          throw new Error(`${evolution.name} does not have a URL.`);
         }
-      } else {
-        throw new Error(`${evolution.name} does not have a URL.`);
       }
+      pokemonsNewArray = pokemons.value.reduce((acc, current) => {
+        acc[current.id] = current;
+        return acc;
+      }, {});
+    } else {
+      urlSpecies.value.length = 0;
+      for (let evolution of arrayEvolutions.value) {
+        if (evolution.url) {
+          const test = await fetchPokemonsData(evolution.url);
+          urlSpecies.value.push(test);
+        } else {
+          throw new Error(`${evolution.name} does not have a URL.`);
+        }
+      }
+      pokemonsNewArray = pokemons.value.reduce((acc, current) => {
+        acc[current.id] = current;
+        return acc;
+      });
     }
 
     // Succès : Fermer le toast de chargement et afficher un toast de succès
@@ -248,7 +302,7 @@ onMounted(() => {
               </button>
             </div>
           </section>
-          <section class="container pb-5">
+          <section class="container pb-5 margin-bottom-mobile">
             <div class="d-flex d-lg-none gap-2">
               <div class="checkbox-wrapper-3">
                 <input v-model="showSheets" type="checkbox" id="cbx-3" />
@@ -281,6 +335,12 @@ onMounted(() => {
               </li>
             </ul>
           </section>
+          <div class="text-light text-center">
+            I could build an entire site for next generations after 4th, but if
+            you're a real fan like me, you'll agree that there is no more gen
+            after 4th ! Take heed. :)
+          </div>
+          <section></section>
         </div>
       </div>
     </div>
@@ -358,8 +418,8 @@ onMounted(() => {
               :key="specie.id"
             >
               <img
-                v-if="pokemons[specie.id - 1] && pokemons[specie.id - 1].image"
-                :src="pokemons[specie.id - 1].image"
+                v-if="pokemonsNewArray[specie.id]"
+                :src="pokemonsNewArray[specie.id].image"
                 alt="Pokemon"
                 class=""
                 style="
@@ -370,7 +430,6 @@ onMounted(() => {
                   -webkit-border-radius: 50%;
                 "
               />
-              <div v-else class="d-none"></div>
             </div>
           </div>
         </div>
@@ -399,6 +458,9 @@ onMounted(() => {
 
   .text-size-array {
     font-size: 10px;
+  }
+  .margin-bottom-mobile {
+    margin-bottom: 150px;
   }
 }
 
