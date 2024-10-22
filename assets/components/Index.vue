@@ -353,6 +353,7 @@ onMounted(() => {
         No selected pokemon
       </div>
       <div
+        id="stickyTop"
         class="row sticky-top p-3 p-lg-0"
         v-show="Object.keys(dataApiPokemon).length > 0"
       >
@@ -442,6 +443,9 @@ onMounted(() => {
 @media (min-width: 992px) {
   #fixedMobileBottom {
     border-left: 1px solid #104d87;
+  }
+  #stickyTop {
+    top: 30px;
   }
 }
 

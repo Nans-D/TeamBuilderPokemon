@@ -63,11 +63,14 @@
 
 ## WAP-11
 
+- Revoir l'affichage des types
+- Comment rencontrer un pokemon et l'endroit ou il se trouve
 - Ajouter plus de stats dans pokemon team, revoir les logos + sheets
 - Revoir text menu hamburger
 
 ## WAP-12
 
+- Moves pokemon select
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
