@@ -16,7 +16,7 @@ class IndexController extends AbstractController
         $this->pokeApi = new PokeApi();
     }
 
-    #[Route('/{id}', name: 'app_index', defaults: ['id' => 1])]
+    #[Route('/{id}', name: 'app_index', defaults: ['id' => 1], requirements: ['id' => '\d+'])]
     public function index(int $id): Response
     {
 

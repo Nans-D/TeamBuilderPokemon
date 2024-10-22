@@ -59,13 +59,18 @@
 - Gérer la 2eme version et la 3eme version
 - Checker les évolutions
 - Checker que tous les pokemons sont présents
+- Si ca va trop vite, revoir les évolutions
 
 ## WAP-11
+
+- Ajouter plus de stats dans pokemon team, revoir les logos + sheets
+
+## WAP-12
 
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
 - Faire une register / login deux en un
 
-## WAP-12
+## WAP-13
 
 - Vue Router
