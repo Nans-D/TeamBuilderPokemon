@@ -9,7 +9,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            }
+        ]
     },
     {
         "id": 388,
@@ -49,7 +62,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            }
+        ]
     },
     {
         "id": 391,
@@ -93,7 +119,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "lake-verity-before-galactic-intervention"
+                ]
+            }
+        ]
     },
     {
         "id": 394,
@@ -137,7 +176,48 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "sinnoh-route-201-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "sinnoh-route-201-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            }
+        ]
     },
     {
         "id": 397,
@@ -153,7 +233,34 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sendoff-spring-area",
+                    "trophy-garden-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sendoff-spring-area",
+                    "trophy-garden-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            }
+        ]
     },
     {
         "id": 398,
@@ -181,7 +288,54 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valley-windworks-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "sinnoh-route-201-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-211-west-towards-eterna-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valley-windworks-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "sinnoh-route-201-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-211-west-towards-eterna-city"
+                ]
+            }
+        ]
     },
     {
         "id": 400,
@@ -197,7 +351,50 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city"
+                ]
+            }
+        ]
     },
     {
         "id": 401,
@@ -209,7 +406,30 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area"
+                ]
+            }
+        ]
     },
     {
         "id": 402,
@@ -221,7 +441,34 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "trophy-garden-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "trophy-garden-area",
+                    "valor-lakefront-area",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
+                ]
+            }
+        ]
     },
     {
         "id": 403,
@@ -233,7 +480,28 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-route-202-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town"
+                ]
+            }
+        ]
     },
     {
         "id": 404,
@@ -245,7 +513,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "fuego-ironworks-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "fuego-ironworks-area"
+                ]
+            }
+        ]
     },
     {
         "id": 405,
@@ -271,17 +552,17 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "kanto-route-24-area",
-                    "kanto-route-25-area"
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-215-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "kanto-route-24-area",
-                    "kanto-route-25-area"
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-215-area"
                 ]
             }
         ]
@@ -298,17 +579,17 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f"
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-route-215-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f"
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-route-215-area"
                 ]
             }
         ]
@@ -337,115 +618,119 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "viridian-city-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "celadon-city-area",
-                    "fuchsia-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-6-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-22-area",
-                    "kanto-route-24-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "ss-anne-area",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "cape-brink-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "ruin-valley-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "four-island-area",
-                    "five-island-area",
-                    "kanto-route-4-pokemon-center",
-                    "kanto-route-3-pokemon-center"
+                    "canalave-city-area",
+                    "eterna-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "iron-island-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "sinnoh-route-229-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "viridian-city-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "celadon-city-area",
-                    "fuchsia-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-6-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-22-area",
-                    "kanto-route-24-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "ss-anne-area",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "cape-brink-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "ruin-valley-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "four-island-area",
-                    "five-island-area",
-                    "kanto-route-4-pokemon-center",
-                    "kanto-route-3-pokemon-center"
+                    "canalave-city-area",
+                    "eterna-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "iron-island-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "sinnoh-route-229-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             }
         ]
@@ -466,101 +751,119 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "viridian-city-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "fuchsia-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-6-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-22-area",
-                    "kanto-route-24-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "ss-anne-area",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "cape-brink-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "ruin-valley-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "four-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "eterna-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "iron-island-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "sinnoh-route-229-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "viridian-city-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "fuchsia-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-6-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-22-area",
-                    "kanto-route-24-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "ss-anne-area",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "cape-brink-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "ruin-valley-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "four-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "eterna-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "iron-island-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "sinnoh-route-229-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             }
         ]
@@ -579,7 +882,38 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-forest-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-forest-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-212-north-towards-hearthome-city"
+                ]
+            }
+        ]
     },
     {
         "id": 315,
@@ -595,7 +929,31 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "trophy-garden-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-route-229-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "trophy-garden-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-225-area"
+                ]
+            }
+        ]
     },
     {
         "id": 407,
@@ -629,67 +987,71 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-1f",
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "mt-moon-1f",
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "mt-moon-b2f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "icefall-cave-entrance",
-                    "icefall-cave-1f",
-                    "icefall-cave-b1f",
-                    "icefall-cave-waterfall",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms",
-                    "kanto-altering-cave-a"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-1f",
+                    "oreburgh-gate-b1f",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "iron-island-1f",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "seafoam-islands-1f",
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "mt-moon-1f",
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "mt-moon-b2f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "icefall-cave-entrance",
-                    "icefall-cave-1f",
-                    "icefall-cave-b1f",
-                    "icefall-cave-waterfall",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms",
-                    "kanto-altering-cave-a"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "ravaged-path-area",
+                    "oreburgh-gate-1f",
+                    "oreburgh-gate-b1f",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "iron-island-1f",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
                 ]
             }
         ]
@@ -710,65 +1072,105 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-1f",
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "icefall-cave-entrance",
-                    "icefall-cave-1f",
-                    "icefall-cave-b1f",
-                    "icefall-cave-waterfall",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "stark-mountain-area",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f",
+                    "sinnoh-route-227-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "seafoam-islands-1f",
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "icefall-cave-entrance",
-                    "icefall-cave-1f",
-                    "icefall-cave-b1f",
-                    "icefall-cave-waterfall",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "stark-mountain-area",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f",
+                    "sinnoh-route-227-area"
                 ]
             }
         ]
@@ -805,51 +1207,67 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "mt-moon-1f",
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "mt-moon-b2f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-area",
-                    "mt-ember-cave",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket",
-                    "mt-ember-b1f",
-                    "mt-ember-b2f",
-                    "kindle-road-area",
-                    "sevault-canyon-area",
-                    "mt-ember-summit"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211",
+                    "ravaged-path-area",
+                    "oreburgh-gate-1f",
+                    "oreburgh-gate-b1f",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "ruin-maniac-cave-0-9-different-unown-caught",
+                    "ruin-maniac-cave-10-25-different-unown-caught",
+                    "maniac-tunnel-26-plus-different-unown-caught",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "valor-lakefront-area",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "mt-moon-1f",
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "mt-moon-b2f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-area",
-                    "mt-ember-cave",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket",
-                    "mt-ember-b1f",
-                    "mt-ember-b2f",
-                    "kindle-road-area",
-                    "sevault-canyon-area",
-                    "mt-ember-summit"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211",
+                    "ravaged-path-area",
+                    "oreburgh-gate-1f",
+                    "oreburgh-gate-b1f",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "ruin-maniac-cave-0-9-different-unown-caught",
+                    "ruin-maniac-cave-10-25-different-unown-caught",
+                    "maniac-tunnel-26-plus-different-unown-caught",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "valor-lakefront-area",
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
                 ]
             }
         ]
@@ -870,37 +1288,79 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "rock-tunnel-b1f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "mt-ember-area",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket",
-                    "mt-ember-b1f",
-                    "mt-ember-b2f",
-                    "kindle-road-area",
-                    "sevault-canyon-area",
-                    "mt-ember-summit"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-area",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "valor-lakefront-area",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-227-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "rock-tunnel-b1f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "mt-ember-area",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket",
-                    "mt-ember-b1f",
-                    "mt-ember-b2f",
-                    "kindle-road-area",
-                    "sevault-canyon-area",
-                    "mt-ember-summit"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-area",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f",
+                    "valor-lakefront-area",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-227-area"
                 ]
             }
         ]
@@ -937,25 +1397,49 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "sevault-canyon-area"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "sevault-canyon-area"
+                    "oreburgh-mine-1f",
+                    "oreburgh-mine-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "iron-island-1f",
+                    "iron-island-b1f-left",
+                    "iron-island-b1f-right",
+                    "iron-island-b2f-right",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f"
                 ]
             }
         ]
@@ -974,7 +1458,46 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "iron-island-b2f-left",
+                    "iron-island-b3f"
+                ]
+            }
+        ]
     },
     {
         "id": 408,
@@ -1044,31 +1567,23 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-area",
-                    "mt-ember-cave",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket"
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "rock-tunnel-1f",
-                    "rock-tunnel-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-area",
-                    "mt-ember-cave",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket"
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211",
+                    "sinnoh-route-207-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town"
                 ]
             }
         ]
@@ -1085,29 +1600,63 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-sea-route-226-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "cerulean-cave-1f",
-                    "cerulean-cave-2f",
-                    "cerulean-cave-b1f",
-                    "kanto-victory-road-2-1f",
-                    "kanto-victory-road-2-2f",
-                    "kanto-victory-road-2-3f",
-                    "mt-ember-inside",
-                    "mt-ember-1f-cave-behind-team-rocket"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "stark-mountain-entrance",
+                    "stark-mountain-inside",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area",
+                    "sinnoh-route-225-area",
+                    "sinnoh-sea-route-226-area"
                 ]
             }
         ]
@@ -1136,61 +1685,59 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-1f",
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "viridian-city-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "celadon-city-area",
-                    "fuchsia-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-6-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-22-area",
-                    "kanto-route-24-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "ss-anne-area",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "cape-brink-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "ruin-valley-area",
-                    "trainer-tower-area",
-                    "canyon-entrance-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "four-island-area",
-                    "five-island-area"
+                    "eterna-city-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-city-area",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area"
                 ]
             }
         ]
@@ -1207,16 +1754,59 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "seafoam-islands-b1f",
-                    "seafoam-islands-b2f",
-                    "seafoam-islands-b3f",
-                    "seafoam-islands-b4f",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "berry-forest-area",
-                    "cape-brink-area"
+                    "eterna-city-area",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-225-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-city-area",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-225-area",
+                    "twinleaf-town-area",
+                    "celestic-town-area",
+                    "resort-area-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             }
         ]
@@ -1232,22 +1822,6 @@
             }
         ],
         "encounters": []
-    },
-    {
-        "id": 413,
-        "name": "wormadam",
-        "image": "https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/413.png",
-        "types": [
-            {
-                "name": "bug",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
-            },
-            {
-                "name": "grass",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
-            }
-
-        ]
     },
     {
         "id": 414,
@@ -1275,7 +1849,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            }
+        ]
     },
     {
         "id": 266,
@@ -1287,7 +1874,14 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            }
+        ]
     },
     {
         "id": 267,
@@ -1303,7 +1897,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-forest-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-224-area"
+                ]
+            }
+        ]
     },
     {
         "id": 268,
@@ -1315,7 +1924,14 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            }
+        ]
     },
     {
         "id": 269,
@@ -1331,7 +1947,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-forest-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            }
+        ]
     },
     {
         "id": 415,
@@ -1375,7 +1999,26 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city"
+                ]
+            }
+        ]
     },
     {
         "id": 418,
@@ -1387,7 +2030,28 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valley-windworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-224-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valley-windworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-224-area"
+                ]
+            }
+        ]
     },
     {
         "id": 419,
@@ -1399,7 +2063,36 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            }
+        ]
     },
     {
         "id": 420,
@@ -1435,7 +2128,34 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-224-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-224-area"
+                ]
+            }
+        ]
     },
     {
         "id": 423,
@@ -1451,7 +2171,30 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "fuego-ironworks-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            }
+        ]
     },
     {
         "id": 214,
@@ -1467,20 +2210,7 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
         ],
-        "encounters": [
-            {
-                "version": "firered",
-                "locations": [
-                    "pattern-bush-area"
-                ]
-            },
-            {
-                "version": "leafgreen",
-                "locations": [
-                    "pattern-bush-area"
-                ]
-            }
-        ]
+        "encounters": []
     },
     {
         "id": 190,
@@ -1492,20 +2222,7 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": [
-            {
-                "version": "firered",
-                "locations": [
-                    "kanto-altering-cave-f"
-                ]
-            },
-            {
-                "version": "leafgreen",
-                "locations": [
-                    "kanto-altering-cave-f"
-                ]
-            }
-        ]
+        "encounters": []
     },
     {
         "id": 424,
@@ -1533,7 +2250,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valley-windworks-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valley-windworks-area"
+                ]
+            }
+        ]
     },
     {
         "id": 426,
@@ -1561,7 +2291,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-forest-area"
+                ]
+            }
+        ]
     },
     {
         "id": 428,
@@ -1591,45 +2334,43 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "pokemon-tower-3f",
-                    "pokemon-tower-4f",
-                    "pokemon-tower-5f",
-                    "pokemon-tower-6f",
-                    "pokemon-tower-7f",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "old-chateau-entrance",
+                    "old-chateau-dining-room",
+                    "old-chateau-2f-private-room",
+                    "old-chateau-2f",
+                    "old-chateau-2f-leftmost-room",
+                    "old-chateau-2f-left-room",
+                    "old-chateau-2f-middle-room",
+                    "old-chateau-2f-right-room",
+                    "old-chateau-2f-rightmost-room",
+                    "sinnoh-route-209-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "pokemon-tower-3f",
-                    "pokemon-tower-4f",
-                    "pokemon-tower-5f",
-                    "pokemon-tower-6f",
-                    "pokemon-tower-7f",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "old-chateau-entrance",
+                    "old-chateau-dining-room",
+                    "old-chateau-2f-private-room",
+                    "old-chateau-2f",
+                    "old-chateau-2f-leftmost-room",
+                    "old-chateau-2f-left-room",
+                    "old-chateau-2f-middle-room",
+                    "old-chateau-2f-right-room",
+                    "old-chateau-2f-rightmost-room",
+                    "sinnoh-route-209-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f"
                 ]
             }
         ]
@@ -1650,45 +2391,45 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "pokemon-tower-3f",
-                    "pokemon-tower-4f",
-                    "pokemon-tower-5f",
-                    "pokemon-tower-6f",
-                    "pokemon-tower-7f",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "old-chateau-entrance",
+                    "old-chateau-dining-room",
+                    "old-chateau-2f-private-room",
+                    "old-chateau-2f",
+                    "old-chateau-2f-leftmost-room",
+                    "old-chateau-2f-left-room",
+                    "old-chateau-2f-middle-room",
+                    "old-chateau-2f-right-room",
+                    "old-chateau-2f-rightmost-room"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "pokemon-tower-3f",
-                    "pokemon-tower-4f",
-                    "pokemon-tower-5f",
-                    "pokemon-tower-6f",
-                    "pokemon-tower-7f",
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "old-chateau-entrance",
+                    "old-chateau-dining-room",
+                    "old-chateau-2f-private-room",
+                    "old-chateau-2f",
+                    "old-chateau-2f-leftmost-room",
+                    "old-chateau-2f-left-room",
+                    "old-chateau-2f-middle-room",
+                    "old-chateau-2f-right-room",
+                    "old-chateau-2f-rightmost-room"
                 ]
             }
         ]
@@ -1707,7 +2448,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "old-chateau-2f-right-room"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "old-chateau-2f-right-room"
+                ]
+            }
+        ]
     },
     {
         "id": 200,
@@ -1721,19 +2475,14 @@
         ],
         "encounters": [
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "eterna-forest-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f"
                 ]
             }
         ]
@@ -1766,19 +2515,14 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "lost-cave-room-1",
-                    "lost-cave-room-2",
-                    "lost-cave-room-3",
-                    "lost-cave-room-4",
-                    "lost-cave-room-5",
-                    "lost-cave-room-6",
-                    "lost-cave-room-7",
-                    "lost-cave-room-8",
-                    "lost-cave-room-9",
-                    "lost-cave-room-10",
-                    "lost-cave-item-rooms"
+                    "eterna-forest-area",
+                    "lost-tower-1f",
+                    "lost-tower-2f",
+                    "lost-tower-3f",
+                    "lost-tower-4f",
+                    "lost-tower-5f"
                 ]
             }
         ]
@@ -1809,7 +2553,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-222-area"
+                ]
+            }
+        ]
     },
     {
         "id": 432,
@@ -1821,7 +2573,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-229-area"
+                ]
+            }
+        ]
     },
     {
         "id": 118,
@@ -1835,47 +2595,39 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "viridian-city-area",
-                    "fuchsia-city-area",
-                    "kanto-route-6-area",
-                    "kanto-route-22-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "cape-brink-area",
-                    "ruin-valley-area",
-                    "four-island-area"
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "resort-area-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "viridian-city-area",
-                    "fuchsia-city-area",
-                    "kanto-route-6-area",
-                    "kanto-route-22-area",
-                    "kanto-route-25-area",
-                    "cerulean-cave-1f",
-                    "cerulean-cave-b1f",
-                    "kanto-route-23-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "berry-forest-area",
-                    "icefall-cave-entrance",
-                    "cape-brink-area",
-                    "ruin-valley-area",
-                    "four-island-area"
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "resort-area-area"
                 ]
             }
         ]
@@ -1892,25 +2644,39 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "fuchsia-city-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "berry-forest-area"
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "resort-area-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "fuchsia-city-area",
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-1-east",
-                    "kanto-safari-zone-area-2-north",
-                    "kanto-safari-zone-area-3-west",
-                    "berry-forest-area"
+                    "sendoff-spring-area",
+                    "lake-verity-before-galactic-intervention",
+                    "lake-verity-after-galactic-intervention",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-203-area",
+                    "sinnoh-route-204-south-towards-jubilife-city",
+                    "sinnoh-route-204-north-towards-floaroma-town",
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-212-north-towards-hearthome-city",
+                    "sinnoh-route-214-area",
+                    "twinleaf-town-area",
+                    "resort-area-area"
                 ]
             }
         ]
@@ -1929,7 +2695,54 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-city-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "celestic-town-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-city-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-4f",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "celestic-town-area"
+                ]
+            }
+        ]
     },
     {
         "id": 340,
@@ -1945,7 +2758,52 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "eterna-city-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "celestic-town-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "eterna-city-area",
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-b1f",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-6",
+                    "ravaged-path-area",
+                    "oreburgh-gate-b1f",
+                    "sinnoh-route-205-east-towards-eterna-city",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-212-east-towards-pastoria-city",
+                    "sinnoh-route-227-area",
+                    "sinnoh-route-228-area",
+                    "celestic-town-area"
+                ]
+            }
+        ]
     },
     {
         "id": 433,
@@ -1957,7 +2815,48 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town"
+                ]
+            }
+        ]
     },
     {
         "id": 358,
@@ -1969,7 +2868,26 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "sendoff-spring-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "sendoff-spring-area"
+                ]
+            }
+        ]
     },
     {
         "id": 434,
@@ -1985,7 +2903,16 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-221-area"
+                ]
+            }
+        ]
     },
     {
         "id": 435,
@@ -2001,7 +2928,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-225-area"
+                ]
+            }
+        ]
     },
     {
         "id": 307,
@@ -2017,7 +2952,40 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-1f-route-211",
+                    "mt-coronet-b1f",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-208-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            }
+        ]
     },
     {
         "id": 308,
@@ -2033,7 +3001,52 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-217-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "sinnoh-victory-road-1f",
+                    "sinnoh-victory-road-2f",
+                    "sinnoh-victory-road-b1f",
+                    "sinnoh-victory-road-inside-b1f",
+                    "sinnoh-victory-road-inside",
+                    "sinnoh-victory-road-inside-exit",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-217-area"
+                ]
+            }
+        ]
     },
     {
         "id": 436,
@@ -2049,7 +3062,42 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "sinnoh-route-206-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3",
+                    "wayward-cave-1f",
+                    "wayward-cave-b1f",
+                    "sinnoh-route-206-area"
+                ]
+            }
+        ]
     },
     {
         "id": 437,
@@ -2065,7 +3113,50 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "turnback-cave-pillar-1",
+                    "turnback-cave-pillar-2",
+                    "turnback-cave-pillar-3",
+                    "turnback-cave-before-pillar-1",
+                    "turnback-cave-between-pillars-1-and-2",
+                    "turnback-cave-between-pillars-2-and-3",
+                    "turnback-cave-after-pillar-3"
+                ]
+            }
+        ]
     },
     {
         "id": 77,
@@ -2079,17 +3170,25 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "mt-ember-area",
-                    "kindle-road-area"
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "mt-ember-area",
-                    "kindle-road-area"
+                    "sinnoh-route-206-area",
+                    "sinnoh-route-210-south-towards-solaceon-town",
+                    "sinnoh-route-211-west-towards-eterna-city",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-215-area"
                 ]
             }
         ]
@@ -2104,22 +3203,7 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
         ],
-        "encounters": [
-            {
-                "version": "firered",
-                "locations": [
-                    "mt-ember-area",
-                    "kindle-road-area"
-                ]
-            },
-            {
-                "version": "leafgreen",
-                "locations": [
-                    "mt-ember-area",
-                    "kindle-road-area"
-                ]
-            }
-        ]
+        "encounters": []
     },
     {
         "id": 438,
@@ -2131,7 +3215,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-south-towards-solaceon-town"
+                ]
+            }
+        ]
     },
     {
         "id": 185,
@@ -2143,7 +3235,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-214-area",
+                    "sinnoh-route-221-area"
+                ]
+            }
+        ]
     },
     {
         "id": 439,
@@ -2155,7 +3255,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-south-towards-solaceon-town"
+                ]
+            }
+        ]
     },
     {
         "id": 122,
@@ -2167,7 +3275,15 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-222-area"
+                ]
+            }
+        ]
     },
     {
         "id": 440,
@@ -2179,7 +3295,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "hearthome-city-west-gate"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "hearthome-city-west-gate"
+                ]
+            }
+        ]
     },
     {
         "id": 113,
@@ -2193,17 +3322,17 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-2-north"
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-south-towards-solaceon-town"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "kanto-safari-zone-middle",
-                    "kanto-safari-zone-area-2-north"
+                    "sinnoh-route-209-area",
+                    "sinnoh-route-210-south-towards-solaceon-town"
                 ]
             }
         ]
@@ -2230,7 +3359,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-1f-route-207",
+                    "mt-coronet-1f-route-211"
+                ]
+            }
+        ]
     },
     {
         "id": 35,
@@ -2244,17 +3388,35 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "mt-moon-1f",
-                    "mt-moon-b2f"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "mt-moon-1f",
-                    "mt-moon-b2f"
+                    "mt-coronet-2f",
+                    "mt-coronet-3f",
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "mt-coronet-4f",
+                    "mt-coronet-4f-small-room",
+                    "mt-coronet-5f",
+                    "mt-coronet-6f",
+                    "mt-coronet-1f-from-exterior",
+                    "mt-coronet-1f-route-216",
+                    "mt-coronet-b1f"
                 ]
             }
         ]
@@ -2285,7 +3447,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area"
+                ]
+            }
+        ]
     },
     {
         "id": 172,
@@ -2297,7 +3474,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "trophy-garden-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "trophy-garden-area"
+                ]
+            }
+        ]
     },
     {
         "id": 25,
@@ -2311,17 +3501,15 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "viridian-forest-area",
-                    "power-plant-area"
+                    "trophy-garden-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "viridian-forest-area",
-                    "power-plant-area"
+                    "trophy-garden-area"
                 ]
             }
         ]
@@ -2352,7 +3540,34 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-west-towards-eterna-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-west-towards-eterna-city"
+                ]
+            }
+        ]
     },
     {
         "id": 164,
@@ -2368,7 +3583,42 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "sendoff-spring-area",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "sendoff-spring-area",
+                    "lake-valor-area",
+                    "lake-acuity-area",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-210-west-towards-celestic-town",
+                    "sinnoh-route-211-east-towards-celestic-town",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            }
+        ]
     },
     {
         "id": 442,
@@ -2384,7 +3634,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-209-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-209-area"
+                ]
+            }
+        ]
     },
     {
         "id": 443,
@@ -2400,7 +3663,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "wayward-cave-b1f"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "wayward-cave-b1f"
+                ]
+            }
+        ]
     },
     {
         "id": 444,
@@ -2456,22 +3732,7 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": [
-            {
-                "version": "firered",
-                "locations": [
-                    "kanto-route-12-area",
-                    "kanto-route-16-area"
-                ]
-            },
-            {
-                "version": "leafgreen",
-                "locations": [
-                    "kanto-route-12-area",
-                    "kanto-route-16-area"
-                ]
-            }
-        ]
+        "encounters": []
     },
     {
         "id": 201,
@@ -2485,27 +3746,49 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "monean-chamber-area",
-                    "liptoo-chamber-area",
-                    "weepth-chamber-area",
-                    "dilford-chamber-area",
-                    "scufib-chamber-area",
-                    "rixy-chamber-area",
-                    "viapos-chamber-area"
+                    "solaceon-ruins-2f",
+                    "solaceon-ruins-1f",
+                    "solaceon-ruins-b1f-a",
+                    "solaceon-ruins-b1f-b",
+                    "solaceon-ruins-b1f-c",
+                    "solaceon-ruins-b2f-a",
+                    "solaceon-ruins-b2f-b",
+                    "solaceon-ruins-b2f-c",
+                    "solaceon-ruins-b3f-a",
+                    "solaceon-ruins-b3f-b",
+                    "solaceon-ruins-b3f-c",
+                    "solaceon-ruins-b3f-d",
+                    "solaceon-ruins-b3f-e",
+                    "solaceon-ruins-b4f-a",
+                    "solaceon-ruins-b4f-b",
+                    "solaceon-ruins-b4f-c",
+                    "solaceon-ruins-b4f-d",
+                    "solaceon-ruins-b5f"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "monean-chamber-area",
-                    "liptoo-chamber-area",
-                    "weepth-chamber-area",
-                    "dilford-chamber-area",
-                    "scufib-chamber-area",
-                    "rixy-chamber-area",
-                    "viapos-chamber-area"
+                    "solaceon-ruins-2f",
+                    "solaceon-ruins-1f",
+                    "solaceon-ruins-b1f-a",
+                    "solaceon-ruins-b1f-b",
+                    "solaceon-ruins-b1f-c",
+                    "solaceon-ruins-b2f-a",
+                    "solaceon-ruins-b2f-b",
+                    "solaceon-ruins-b2f-c",
+                    "solaceon-ruins-b3f-a",
+                    "solaceon-ruins-b3f-b",
+                    "solaceon-ruins-b3f-c",
+                    "solaceon-ruins-b3f-d",
+                    "solaceon-ruins-b3f-e",
+                    "solaceon-ruins-b4f-a",
+                    "solaceon-ruins-b4f-b",
+                    "solaceon-ruins-b4f-c",
+                    "solaceon-ruins-b4f-d",
+                    "solaceon-ruins-b5f"
                 ]
             }
         ]
@@ -2520,7 +3803,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "iron-island-b2f-left"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "iron-island-b2f-left"
+                ]
+            }
+        ]
     },
     {
         "id": 448,
@@ -2554,11 +3850,27 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "icefall-cave-entrance",
-                    "ruin-valley-area",
-                    "four-island-area"
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-212-east-towards-pastoria-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-212-east-towards-pastoria-city"
                 ]
             }
         ]
@@ -2577,7 +3889,32 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-212-east-towards-pastoria-city"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6",
+                    "sinnoh-route-212-east-towards-pastoria-city"
+                ]
+            }
+        ]
     },
     {
         "id": 278,
@@ -2593,7 +3930,44 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-229-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-229-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            }
+        ]
     },
     {
         "id": 279,
@@ -2609,7 +3983,56 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-229-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-route-229-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            }
+        ]
     },
     {
         "id": 203,
@@ -2625,7 +4048,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "valor-lakefront-area",
+                    "sinnoh-route-214-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "valor-lakefront-area",
+                    "sinnoh-route-214-area"
+                ]
+            }
+        ]
     },
     {
         "id": 449,
@@ -2637,7 +4075,24 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "ruin-maniac-cave-0-9-different-unown-caught",
+                    "ruin-maniac-cave-10-25-different-unown-caught",
+                    "maniac-tunnel-26-plus-different-unown-caught"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "ruin-maniac-cave-0-9-different-unown-caught",
+                    "ruin-maniac-cave-10-25-different-unown-caught",
+                    "maniac-tunnel-26-plus-different-unown-caught"
+                ]
+            }
+        ]
     },
     {
         "id": 450,
@@ -2649,7 +4104,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sinnoh-route-228-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sinnoh-route-228-area"
+                ]
+            }
+        ]
     },
     {
         "id": 298,
@@ -2661,7 +4129,30 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6"
+                ]
+            }
+        ]
     },
     {
         "id": 183,
@@ -2675,11 +4166,25 @@
         ],
         "encounters": [
             {
-                "version": "leafgreen",
+                "version": "diamond",
                 "locations": [
-                    "icefall-cave-entrance",
-                    "ruin-valley-area",
-                    "four-island-area"
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "great-marsh-area-1",
+                    "great-marsh-area-2",
+                    "great-marsh-area-3",
+                    "great-marsh-area-4",
+                    "great-marsh-area-5",
+                    "great-marsh-area-6"
                 ]
             }
         ]
@@ -2784,17 +4289,29 @@
         ],
         "encounters": [
             {
-                "version": "leafgreen",
+                "version": "diamond",
                 "locations": [
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area"
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             }
         ]
@@ -2809,7 +4326,34 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-230-area"
+                ]
+            }
+        ]
     },
     {
         "id": 456,
@@ -2821,7 +4365,36 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "canalave-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "canalave-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            }
+        ]
     },
     {
         "id": 457,
@@ -2833,7 +4406,36 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "canalave-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "canalave-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-sea-route-220-area"
+                ]
+            }
+        ]
     },
     {
         "id": 72,
@@ -2851,71 +4453,37 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-24-area",
-                    "ss-anne-area",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-sea-route-220-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "kanto-route-12-area",
-                    "kanto-sea-route-19-area",
-                    "kanto-sea-route-20-area",
-                    "cinnabar-island-area",
-                    "cerulean-city-area",
-                    "vermilion-city-area",
-                    "pallet-town-area",
-                    "kanto-route-4-area",
-                    "kanto-route-10-area",
-                    "kanto-route-11-area",
-                    "kanto-route-13-area",
-                    "kanto-sea-route-21-area",
-                    "kanto-route-24-area",
-                    "ss-anne-area",
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-sea-route-220-area"
                 ]
             }
         ]
@@ -2936,43 +4504,49 @@
         ],
         "encounters": [
             {
-                "version": "firered",
+                "version": "diamond",
                 "locations": [
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             },
             {
-                "version": "leafgreen",
+                "version": "pearl",
                 "locations": [
-                    "icefall-cave-waterfall",
-                    "kindle-road-area",
-                    "treasure-beach-area",
-                    "bond-bridge-area",
-                    "resort-gorgeous-area",
-                    "water-labyrinth-area",
-                    "five-isle-meadow-area",
-                    "memorial-pillar-area",
-                    "outcast-island-area",
-                    "green-path-area",
-                    "water-path-area",
-                    "trainer-tower-area",
-                    "tanoby-ruins-area",
-                    "one-island-area",
-                    "five-island-area"
+                    "canalave-city-area",
+                    "pastoria-city-area",
+                    "sunyshore-city-area",
+                    "sinnoh-pokemon-league-area",
+                    "valley-windworks-area",
+                    "fuego-ironworks-area",
+                    "iron-island-area",
+                    "sinnoh-route-205-south-towards-floaroma-town",
+                    "sinnoh-route-213-area",
+                    "sinnoh-route-218-area",
+                    "sinnoh-route-219-area",
+                    "sinnoh-route-221-area",
+                    "sinnoh-route-222-area",
+                    "sinnoh-route-224-area",
+                    "sinnoh-sea-route-220-area",
+                    "sinnoh-sea-route-223-area",
+                    "sinnoh-sea-route-226-area",
+                    "sinnoh-sea-route-230-area"
                 ]
             }
         ]
@@ -3015,7 +4589,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "sunyshore-city-area",
+                    "sinnoh-sea-route-223-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "sunyshore-city-area",
+                    "sinnoh-sea-route-223-area"
+                ]
+            }
+        ]
     },
     {
         "id": 226,
@@ -3031,15 +4620,7 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
         ],
-        "encounters": [
-            {
-                "version": "leafgreen",
-                "locations": [
-                    "trainer-tower-area",
-                    "tanoby-ruins-area"
-                ]
-            }
-        ]
+        "encounters": []
     },
     {
         "id": 459,
@@ -3055,7 +4636,28 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            }
+        ]
     },
     {
         "id": 460,
@@ -3071,7 +4673,22 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "mt-coronet-exterior-snowfall",
+                    "mt-coronet-exterior-blizzard"
+                ]
+            }
+        ]
     },
     {
         "id": 215,
@@ -3089,10 +4706,33 @@
         ],
         "encounters": [
             {
-                "version": "leafgreen",
+                "version": "diamond",
                 "locations": [
-                    "icefall-cave-1f",
-                    "icefall-cave-b1f"
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "lake-acuity-area",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "snowpoint-temple-1f",
+                    "snowpoint-temple-b1f",
+                    "snowpoint-temple-b2f",
+                    "snowpoint-temple-b3f",
+                    "snowpoint-temple-b4f",
+                    "snowpoint-temple-b5f",
+                    "lake-acuity-area",
+                    "acuity-lakefront-area",
+                    "sinnoh-route-216-area",
+                    "sinnoh-route-217-area"
                 ]
             }
         ]
@@ -3123,7 +4763,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "lake-acuity-cavern"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "lake-acuity-cavern"
+                ]
+            }
+        ]
     },
     {
         "id": 481,
@@ -3135,7 +4788,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "roaming-sinnoh-area"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "roaming-sinnoh-area"
+                ]
+            }
+        ]
     },
     {
         "id": 482,
@@ -3147,7 +4813,20 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "lake-valor-cavern"
+                ]
+            },
+            {
+                "version": "pearl",
+                "locations": [
+                    "lake-valor-cavern"
+                ]
+            }
+        ]
     },
     {
         "id": 483,
@@ -3163,7 +4842,14 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "diamond",
+                "locations": [
+                    "spear-pillar-area"
+                ]
+            }
+        ]
     },
     {
         "id": 484,
@@ -3179,7 +4865,14 @@
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
         ],
-        "encounters": []
+        "encounters": [
+            {
+                "version": "pearl",
+                "locations": [
+                    "spear-pillar-area"
+                ]
+            }
+        ]
     },
     {
         "id": 490,

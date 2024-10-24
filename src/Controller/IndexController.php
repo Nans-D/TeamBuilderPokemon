@@ -57,8 +57,8 @@ class IndexController extends AbstractController
                 break;
             case 4:
                 $version = [
-                    'firered',
-                    'leafgreen'
+                    'diamond',
+                    'pearl'
                 ];
                 $responseJson = $this->processPokedex(5, $file, $directory, $version);
                 break;
