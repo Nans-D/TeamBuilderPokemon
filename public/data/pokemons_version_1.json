@@ -439,8 +439,8 @@
         "image": "https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/35.png",
         "types": [
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "name": "normal",
+                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ]
     },
@@ -450,8 +450,8 @@
         "image": "https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/36.png",
         "types": [
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "name": "normal",
+                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
         ]
     },
@@ -485,10 +485,6 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
         ]
     },
@@ -500,10 +496,6 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
         ]
     },
@@ -1550,10 +1542,6 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
         ]
     },

@@ -133,41 +133,41 @@ onBeforeUnmount(() => {
           background-color: #111927;
           border-left: 1px solid #104d87;
           height: 100vh;
-          width: 35%;
+          width: 40%;
         "
       >
         <ul class="d-flex flex-column list-unstyled align-items-end gap-2">
           <li>
             <a
-              class="fs-2 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
+              class="fs-3 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/"
               >Home</a
             >
           </li>
           <li v-if="isAuthentificated">
             <a
-              class="fs-2 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
+              class="fs-3 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/register"
               >Register</a
             >
           </li>
           <li v-if="isAuthentificated">
             <a
-              class="fs-2 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
+              class="fs-3 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/login"
               >Login</a
             >
           </li>
           <li v-if="!isAuthentificated">
             <a
-              class="fs-2 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
+              class="fs-3 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/logout"
               >Logout</a
             >
           </li>
           <li v-if="!isAuthentificated">
             <a
-              class="fs-2 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
+              class="fs-3 link-light link-underline-opacity-0 link-offset-2 link-underline-opacity-100-hover"
               href="/pokemon_team"
               >My Team</a
             >

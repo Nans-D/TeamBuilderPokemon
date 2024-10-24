@@ -1,0 +1,168 @@
+[
+    {
+      "region": "Kanto",
+      "dressors": [
+        {
+          "stage_1": [
+            {
+              "name": "Brock",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "Misty",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "Lt. Surge",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_4": [
+            {
+              "name": "Erika",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_5": [
+            {
+              "name": "Koga",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["1", "3"]
+            },
+            {
+              "name": "Janine",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["2", "4"]
+            }
+          ],
+          "stage_6": [
+            {
+              "name": "Sabrina",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_7": [
+            {
+              "name": "Blaine",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_8": [
+            {
+              "name": "Giovanni",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["1", "3"]
+            },
+            {
+              "name": "Blue",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["2", "4"]
+            }
+          ],
+          "indigo_league": [
+            {
+              "dressors": [
+                {
+                  "name": "Lorelei",
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                  "generation": [1, 3]
+                },
+                {
+                  "name": "Bruno",
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                  "generation": [1, 3]
+                },
+                {
+                  "name": "Agatha",
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                  "generation": [1, 3]
+                },
+                {
+                  "name": "Brock",
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                  "generation": [1, 3]
+                },
+                {
+                  "name": "Brock",
+                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                  "generation": [1, 2]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Johto",
+      "dressors": [
+        {
+          "stage_1": [
+            {
+              "name": "Brock",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "Misty",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "Lt. Surge",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_4": [
+            {
+              "name": "Erika",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_5": [
+            {
+              "name": "Koga",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["1", "3"]
+            },
+            {
+              "name": "Janine",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["2", "4"]
+            }
+          ],
+          "stage_6": [
+            {
+              "name": "Sabrina",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_7": [
+            {
+              "name": "Blaine",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
+            }
+          ],
+          "stage_8": [
+            {
+              "name": "Giovanni",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["1", "3"]
+            },
+            {
+              "name": "Blue",
+              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+              "generation": ["2", "4"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

@@ -8,7 +8,7 @@ const pokemons = ref([]);
 const myTeam = ref([]);
 const toast = useToast();
 const dataApiPokemon = ref({});
-const secondApiData = ref({});
+const secondApiData = ref([]);
 const evolutionApiData = ref({});
 const urlFromSpecies = ref("");
 const arrayEvolutions = ref([]);
@@ -80,9 +80,20 @@ const addIntoTeam = async (pokemon) => {
     }
 
     // Fetch type image
-    secondApiData.value = await fetchPokemonsData(
-      `https://pokeapi.co/api/v2/type/${dataApiPokemon.value["types"][0]["type"]["name"]}`
-    );
+    secondApiData.value.length = 0;
+    for (let type of myTeam.value[myTeam.value.length - 1]["types"]) {
+      if (type && type["url"]) {
+        // Vérification supplémentaire pour éviter les erreurs
+        try {
+          const data = await fetchPokemonsData(type["url"]);
+          secondApiData.value.push(data);
+        } catch (error) {
+          console.error("Error fetching data: ", error);
+        }
+      } else {
+        console.error("Type or URL is undefined:", type);
+      }
+    }
 
     if (requestId !== currentRequestId.value) {
       toast.dismiss(loadingToast);
@@ -151,7 +162,7 @@ const addIntoTeam = async (pokemon) => {
 
     if (
       urlFromSpecies.value["generation"]["name"] === "generation-i" &&
-      window.location.href.includes("1")
+      (window.location.href.includes("1") || window.location.href.includes(""))
     ) {
       urlSpecies.value.length = 0;
       for (let evolution of arrayEvolutions.value) {
@@ -359,7 +370,7 @@ onMounted(() => {
       >
         <div class="col-4 col-lg-12 align-self-center">
           <div class="row text-center">
-            <div class="col-12 col-lg-4 p-0 mx-auto" style="width: 96px">
+            <div class="col-12 col-lg-4 p-9 mx-auto" style="width: 96px">
               <img
                 :src="
                   dataApiPokemon['sprites']
@@ -381,16 +392,20 @@ onMounted(() => {
                   }}
                 </div>
                 <div class="col-12">
-                  <img
-                    :src="
-                      secondApiData['sprites']
-                        ? secondApiData['sprites']['generation-vi'][
-                            'omega-ruby-alpha-sapphire'
-                          ]['name_icon']
-                        : ''
-                    "
-                    alt=""
-                  />
+                  <div class="row justify-content-center">
+                    <div class="col-auto px-1" v-for="type in secondApiData">
+                      <img
+                        :src="
+                          type['sprites']
+                            ? type['sprites']['generation-iii'][
+                                'firered-leafgreen'
+                              ]['name_icon']
+                            : ''
+                        "
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

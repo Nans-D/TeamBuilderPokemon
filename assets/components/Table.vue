@@ -1,5 +1,18 @@
 <script setup>
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
+const typesIcon = ref([]);
+
+const fetchPokemonsData = async (url) => {
+  const response = await fetch(url, {
+    headers: {
+      "Content-type": "application/json",
+    },
+  });
+  if (!response.ok) {
+    throw new Error(`Failed to fetch pokemons data: ${response.statusText}`);
+  }
+  return await response.json();
+};
 
 const props = defineProps({
   types: {
@@ -14,17 +27,27 @@ const props = defineProps({
 
 let newPokemon = ref([]);
 
-for (const pokemon of props.pokemonTeam.pokemons) {
-  for (const key of Object.keys(props.types)) {
-    if (pokemon.types[0].name.toLowerCase() == key.toLowerCase()) {
-      newPokemon.value.push({
-        name: pokemon.name,
-        typeName: key,
-        effects: Object.values(props.types[key]),
-      });
+onMounted(async () => {
+  for (const pokemon of props.pokemonTeam.pokemons) {
+    for (const key of Object.keys(props.types)) {
+      if (pokemon.types[0].name.toLowerCase() == key.toLowerCase()) {
+        newPokemon.value.push({
+          name: pokemon.name,
+          typeName: key,
+          effects: Object.values(props.types[key]),
+        });
+      }
     }
   }
-}
+
+  for (let icon of Object.keys(props.types)) {
+    typesIcon.value.push(
+      await fetchPokemonsData(
+        `https://pokeapi.co/api/v2/type/${icon.toLowerCase()}/`
+      )
+    );
+  }
+});
 </script>
 
 <template>
@@ -46,10 +69,19 @@ for (const pokemon of props.pokemonTeam.pokemons) {
       <tbody>
         <tr
           class="text-center"
-          v-for="(typeName, typeIndex) in Object.keys(types)"
-          :key="typeName"
+          v-for="(iconUrl, typeIndex) in typesIcon"
+          :key="iconUrl"
         >
-          <td>{{ typeName }}</td>
+          <td>
+            <img
+              :src="
+                iconUrl['sprites']['generation-iv']['diamond-pearl'][
+                  'name_icon'
+                ]
+              "
+              alt=""
+            />
+          </td>
           <!-- Pour chaque Pokémon, afficher l'effet associé à ce type -->
           <td v-for="pokemon in newPokemon" :key="pokemon.name">
             x {{ pokemon.effects[typeIndex] }}

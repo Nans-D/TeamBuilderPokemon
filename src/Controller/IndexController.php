@@ -79,18 +79,42 @@ class IndexController extends AbstractController
 
             // Mettre à zéro les types
             $typesCompiled = [];
-            // Ajoutez ceci pour afficher le contenu et vérifier s'il est correct
+            $uniqueTypes = [];
 
             if (isset($pokemonDetails['types']) && is_array($pokemonDetails['types'])) {
-                foreach ($pokemonDetails['types'] as $types) {
-                    $typesCompiled[] = [
-                        'name' => $types['type']['name'],
-                        'url' => $types['type']['url']
-                    ];
+                // Gestion des anciens types
+                if (!empty($pokemonDetails['past_types'])) {
+                    foreach ($pokemonDetails['past_types'] as $pastType) {
+                        foreach ($pastType['types'] as $type) {
+                            $typeName = $type['type']['name'];
+                            // Ajouter le type uniquement s'il n'est pas déjà dans la liste
+                            if (!in_array($typeName, $uniqueTypes)) {
+                                $typesCompiled[] = [
+                                    'name' => $typeName,
+                                    'url' => $type['type']['url']
+                                ];
+                                $uniqueTypes[] = $typeName;
+                            }
+                        }
+                    }
+                }
+
+                // Gestion des types actuels, exclusion de 'fairy'
+                foreach ($pokemonDetails['types'] as $type) {
+                    $typeName = $type['type']['name'];
+                    // Ajouter le type uniquement s'il n'est pas déjà dans la liste et que ce n'est pas 'fairy'
+                    if ($typeName !== 'fairy' && !in_array($typeName, $uniqueTypes)) {
+                        $typesCompiled[] = [
+                            'name' => $typeName,
+                            'url' => $type['type']['url']
+                        ];
+                        $uniqueTypes[] = $typeName;
+                    }
                 }
             } else {
                 continue;
             }
+
 
             $imagesPokemonArray[] = [
                 'id' => $pokemonDetails['id'],
