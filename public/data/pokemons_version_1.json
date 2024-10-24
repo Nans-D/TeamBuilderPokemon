@@ -12,6 +12,26 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-city-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            }
         ]
     },
     {
@@ -27,7 +47,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 3,
@@ -42,7 +63,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 4,
@@ -52,6 +74,26 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-24-area"
+                ]
             }
         ]
     },
@@ -64,7 +106,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 6,
@@ -79,7 +122,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 7,
@@ -89,6 +133,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "vermilion-city-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pallet-town-area"
+                ]
             }
         ]
     },
@@ -101,7 +165,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 9,
@@ -112,7 +177,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 10,
@@ -122,6 +188,30 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "viridian-forest-area"
+                ]
             }
         ]
     },
@@ -133,6 +223,29 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "viridian-forest-area"
+                ]
             }
         ]
     },
@@ -149,7 +262,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 13,
@@ -163,6 +277,24 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
             }
         ]
     },
@@ -179,6 +311,23 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            }
         ]
     },
     {
@@ -194,7 +343,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 16,
@@ -208,6 +358,64 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-3-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-3-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
             }
         ]
     },
@@ -224,6 +432,42 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "viridian-forest-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-sea-route-21-area"
+                ]
+            }
         ]
     },
     {
@@ -239,7 +483,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 19,
@@ -249,6 +494,55 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-4-area",
+                    "kanto-route-9-area",
+                    "kanto-route-16-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-4-area",
+                    "kanto-route-9-area",
+                    "kanto-route-16-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-1-area",
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-3-area",
+                    "kanto-route-4-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-16-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f"
+                ]
             }
         ]
     },
@@ -260,6 +554,41 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-16-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area"
+                ]
             }
         ]
     },
@@ -276,6 +605,49 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-3-area",
+                    "kanto-route-4-area",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-22-area",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-3-area",
+                    "kanto-route-4-area",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-22-area",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-3-area",
+                    "kanto-route-4-area",
+                    "kanto-route-9-area",
+                    "kanto-route-16-area",
+                    "kanto-route-18-area",
+                    "kanto-route-22-area"
+                ]
+            }
         ]
     },
     {
@@ -291,6 +663,34 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-9-area",
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-23-area"
+                ]
+            }
         ]
     },
     {
@@ -301,6 +701,19 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-4-area",
+                    "kanto-route-8-area",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-23-area"
+                ]
             }
         ]
     },
@@ -313,6 +726,16 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            }
         ]
     },
     {
@@ -323,6 +746,28 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "pallet-town-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "viridian-forest-area",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "viridian-forest-area",
+                    "power-plant-area"
+                ]
             }
         ]
     },
@@ -335,6 +780,23 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "power-plant-area"
+                ]
+            }
         ]
     },
     {
@@ -345,6 +807,27 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "mt-moon-1f",
+                    "kanto-route-3-area",
+                    "kanto-route-4-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-4-area",
+                    "kanto-route-8-area",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-23-area"
+                ]
             }
         ]
     },
@@ -357,6 +840,23 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            }
         ]
     },
     {
@@ -368,6 +868,39 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -378,6 +911,33 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-9-area",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
             }
         ]
     },
@@ -394,7 +954,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 32,
@@ -404,6 +965,39 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-2-south-towards-viridian-city",
+                    "kanto-route-9-area",
+                    "kanto-route-10-area",
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-22-area",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
             }
         ]
     },
@@ -415,6 +1009,33 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-9-area",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
             }
         ]
     },
@@ -431,7 +1052,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 35,
@@ -439,8 +1061,34 @@
         "image": "https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/35.png",
         "types": [
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "name": "normal",
+                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "mt-moon-1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "mt-moon-1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "mt-moon-1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f"
+                ]
             }
         ]
     },
@@ -450,10 +1098,11 @@
         "image": "https:\/\/raw.githubusercontent.com\/PokeAPI\/sprites\/master\/sprites\/pokemon\/36.png",
         "types": [
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "name": "normal",
+                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 37,
@@ -463,6 +1112,19 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
             }
         ]
     },
@@ -475,7 +1137,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 39,
@@ -485,10 +1148,29 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-3-area"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "blue",
+                "locations": [
+                    "kanto-route-3-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area"
+                ]
             }
         ]
     },
@@ -500,10 +1182,20 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-2f"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-2f"
+                ]
             }
         ]
     },
@@ -520,6 +1212,53 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f"
+                ]
+            }
         ]
     },
     {
@@ -534,6 +1273,47 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b4f",
+                    "cerulean-cave-1f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b4f",
+                    "cerulean-cave-1f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
             }
         ]
     },
@@ -550,6 +1330,33 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            }
         ]
     },
     {
@@ -564,6 +1371,28 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
             }
         ]
     },
@@ -580,7 +1409,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 46,
@@ -594,6 +1424,36 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "mt-moon-1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "mt-moon-1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "kanto-safari-zone-middle"
+                ]
             }
         ]
     },
@@ -610,6 +1470,33 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "kanto-safari-zone-middle"
+                ]
+            }
         ]
     },
     {
@@ -624,6 +1511,39 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
             }
         ]
     },
@@ -640,6 +1560,36 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "cerulean-cave-1f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "kanto-victory-road-2-3f",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "kanto-victory-road-2-3f",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -650,6 +1600,26 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "digletts-cave-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "digletts-cave-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "digletts-cave-area"
+                ]
             }
         ]
     },
@@ -662,6 +1632,26 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "digletts-cave-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "digletts-cave-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "digletts-cave-area"
+                ]
+            }
         ]
     },
     {
@@ -672,6 +1662,17 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area"
+                ]
             }
         ]
     },
@@ -684,7 +1685,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 54,
@@ -694,6 +1696,44 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "cerulean-city-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "cerulean-city-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-6-area"
+                ]
             }
         ]
     },
@@ -706,6 +1746,27 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b4f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-6-area"
+                ]
+            }
         ]
     },
     {
@@ -716,6 +1777,26 @@
             {
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-3-area",
+                    "kanto-route-4-area",
+                    "kanto-route-22-area",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area"
+                ]
             }
         ]
     },
@@ -728,6 +1809,14 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-23-area"
+                ]
+            }
         ]
     },
     {
@@ -738,6 +1827,25 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-7-area",
+                    "kanto-route-8-area",
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "pokemon-mansion-1f"
+                ]
             }
         ]
     },
@@ -750,7 +1858,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 60,
@@ -760,6 +1869,112 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
             }
         ]
     },
@@ -771,6 +1986,29 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "celadon-city-area",
+                    "kanto-route-10-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "celadon-city-area",
+                    "kanto-route-10-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-22-area",
+                    "kanto-route-23-area"
+                ]
             }
         ]
     },
@@ -787,7 +2025,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 63,
@@ -797,6 +2036,31 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-8-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
             }
         ]
     },
@@ -809,6 +2073,28 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-8-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            }
         ]
     },
     {
@@ -820,7 +2106,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 66,
@@ -830,6 +2117,36 @@
             {
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "rock-tunnel-b1f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "rock-tunnel-b1f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "rock-tunnel-b1f",
+                    "kanto-route-10-area",
+                    "rock-tunnel-b2f"
+                ]
             }
         ]
     },
@@ -842,6 +2159,31 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            }
         ]
     },
     {
@@ -853,7 +2195,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 69,
@@ -867,6 +2210,33 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-5-area",
+                    "kanto-route-6-area",
+                    "kanto-route-7-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area"
+                ]
             }
         ]
     },
@@ -883,6 +2253,28 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            }
         ]
     },
     {
@@ -898,7 +2290,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 72,
@@ -912,6 +2305,54 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "vermilion-city-area",
+                    "pallet-town-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "viridian-city-area",
+                    "pallet-town-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "viridian-city-area",
+                    "pallet-town-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area"
+                ]
             }
         ]
     },
@@ -928,6 +2369,16 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "kanto-sea-route-21-area"
+                ]
+            }
         ]
     },
     {
@@ -942,6 +2393,47 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "mt-moon-1f",
+                    "rock-tunnel-b1f",
+                    "mt-moon-b1f",
+                    "mt-moon-b2f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
             }
         ]
     },
@@ -958,6 +2450,35 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            }
         ]
     },
     {
@@ -973,7 +2494,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 77,
@@ -983,6 +2505,32 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-17-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
             }
         ]
     },
@@ -995,7 +2543,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 79,
@@ -1009,6 +2558,46 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "celadon-city-area",
+                    "kanto-route-10-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "celadon-city-area",
+                    "kanto-route-10-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "kanto-route-12-area",
+                    "kanto-route-13-area"
+                ]
             }
         ]
     },
@@ -1025,6 +2614,35 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b4f",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b2f",
+                    "kanto-route-12-area",
+                    "kanto-route-13-area"
+                ]
+            }
         ]
     },
     {
@@ -1039,6 +2657,27 @@
             {
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-10-area",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "power-plant-area"
+                ]
             }
         ]
     },
@@ -1055,6 +2694,28 @@
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area"
+                ]
+            }
         ]
     },
     {
@@ -1069,6 +2730,15 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area"
+                ]
             }
         ]
     },
@@ -1085,6 +2755,36 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-16-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area"
+                ]
+            }
         ]
     },
     {
@@ -1100,6 +2800,28 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-17-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f"
+                ]
+            }
         ]
     },
     {
@@ -1110,6 +2832,37 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f"
+                ]
             }
         ]
     },
@@ -1126,6 +2879,29 @@
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f"
+                ]
+            }
         ]
     },
     {
@@ -1136,6 +2912,36 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area",
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
             }
         ]
     },
@@ -1148,6 +2954,35 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            }
         ]
     },
     {
@@ -1158,6 +2993,51 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "vermilion-city-area",
+                    "kanto-route-6-area",
+                    "kanto-route-11-area",
+                    "kanto-sea-route-21-area",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "vermilion-city-area",
+                    "kanto-route-6-area",
+                    "kanto-route-11-area",
+                    "kanto-sea-route-21-area",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "vermilion-city-ss-anne-dock"
+                ]
             }
         ]
     },
@@ -1174,7 +3054,8 @@
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 92,
@@ -1188,6 +3069,38 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
             }
         ]
     },
@@ -1204,6 +3117,38 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            }
         ]
     },
     {
@@ -1219,7 +3164,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 95,
@@ -1234,6 +3180,37 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "rock-tunnel-b1f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "rock-tunnel-b1f",
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "rock-tunnel-b2f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f",
+                    "kanto-victory-road-2-3f"
+                ]
+            }
         ]
     },
     {
@@ -1244,6 +3221,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-11-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-11-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-11-area"
+                ]
             }
         ]
     },
@@ -1256,6 +3253,20 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f"
+                ]
+            }
         ]
     },
     {
@@ -1266,6 +3277,67 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "fuchsia-city-area",
+                    "kanto-route-6-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-10-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "fuchsia-city-area",
+                    "kanto-route-6-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
             }
         ]
     },
@@ -1278,6 +3350,37 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b3f",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-10-area",
+                    "kanto-route-25-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            }
         ]
     },
     {
@@ -1289,6 +3392,28 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-10-area",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-10-area",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area"
+                ]
+            }
         ]
     },
     {
@@ -1299,6 +3424,30 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area"
+                ]
             }
         ]
     },
@@ -1315,6 +3464,35 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1330,7 +3508,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 104,
@@ -1340,6 +3519,39 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-tower-3f",
+                    "pokemon-tower-4f",
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "pokemon-tower-5f",
+                    "pokemon-tower-6f",
+                    "pokemon-tower-7f",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
             }
         ]
     },
@@ -1352,6 +3564,33 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-victory-road-2-1f",
+                    "kanto-victory-road-2-2f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1362,6 +3601,26 @@
             {
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
             }
         ]
     },
@@ -1374,6 +3633,26 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "saffron-city-fighting-dojo"
+                ]
+            }
         ]
     },
     {
@@ -1384,6 +3663,14 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-b1f"
+                ]
             }
         ]
     },
@@ -1396,6 +3683,26 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            }
         ]
     },
     {
@@ -1406,6 +3713,26 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-1f",
+                    "pokemon-mansion-2f",
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
             }
         ]
     },
@@ -1422,6 +3749,31 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            }
         ]
     },
     {
@@ -1437,6 +3789,29 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f"
+                ]
+            }
         ]
     },
     {
@@ -1447,6 +3822,34 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-2-north"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-b1f",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east"
+                ]
             }
         ]
     },
@@ -1459,6 +3862,27 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1469,6 +3893,28 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-area-2-north"
+                ]
             }
         ]
     },
@@ -1481,6 +3927,43 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "vermilion-city-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area"
+                ]
+            }
         ]
     },
     {
@@ -1491,6 +3974,33 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b3f",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-13-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
             }
         ]
     },
@@ -1503,6 +4013,112 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1514,6 +4130,35 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-city-area",
+                    "kanto-route-24-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "fuchsia-city-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "fuchsia-city-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            }
         ]
     },
     {
@@ -1524,6 +4169,48 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-1f",
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b1f",
+                    "seafoam-islands-b2f",
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "kanto-sea-route-21-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "pallet-town-area",
+                    "kanto-sea-route-21-area",
+                    "vermilion-city-ss-anne-dock"
+                ]
             }
         ]
     },
@@ -1540,7 +4227,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 122,
@@ -1550,12 +4238,9 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 123,
@@ -1569,6 +4254,22 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north"
+                ]
             }
         ]
     },
@@ -1585,7 +4286,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 125,
@@ -1595,6 +4297,14 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "power-plant-area"
+                ]
             }
         ]
     },
@@ -1607,6 +4317,15 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "pokemon-mansion-3f",
+                    "pokemon-mansion-b1f"
+                ]
+            }
         ]
     },
     {
@@ -1617,6 +4336,22 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
             }
         ]
     },
@@ -1629,6 +4364,29 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1639,6 +4397,118 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock",
+                    "kanto-route-4-pokemon-center",
+                    "kanto-route-3-pokemon-center"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "vermilion-city-ss-anne-dock",
+                    "kanto-route-4-pokemon-center",
+                    "kanto-route-3-pokemon-center"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b3f",
+                    "seafoam-islands-b4f",
+                    "kanto-route-12-area",
+                    "kanto-sea-route-19-area",
+                    "kanto-sea-route-20-area",
+                    "cinnabar-island-area",
+                    "viridian-city-area",
+                    "cerulean-city-area",
+                    "vermilion-city-area",
+                    "celadon-city-area",
+                    "fuchsia-city-area",
+                    "pallet-town-area",
+                    "kanto-route-6-area",
+                    "kanto-route-10-area",
+                    "kanto-route-11-area",
+                    "kanto-route-13-area",
+                    "kanto-route-17-area",
+                    "kanto-route-18-area",
+                    "kanto-sea-route-21-area",
+                    "kanto-route-22-area",
+                    "kanto-route-24-area",
+                    "kanto-route-25-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area",
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west",
+                    "kanto-route-4-pokemon-center",
+                    "kanto-route-3-pokemon-center"
+                ]
             }
         ]
     },
@@ -1655,6 +4525,14 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "fuchsia-city-area"
+                ]
+            }
         ]
     },
     {
@@ -1670,6 +4548,26 @@
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "saffron-city-silph-co-7f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "saffron-city-silph-co-7f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "saffron-city-silph-co-7f"
+                ]
+            }
         ]
     },
     {
@@ -1680,6 +4578,41 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-13-area",
+                    "kanto-route-14-area",
+                    "kanto-route-15-area",
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "kanto-route-23-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-1f",
+                    "cerulean-cave-2f",
+                    "cerulean-cave-b1f",
+                    "pokemon-mansion-b1f"
+                ]
             }
         ]
     },
@@ -1692,6 +4625,26 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "celadon-city-celadon-mansion"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "celadon-city-celadon-mansion"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "celadon-city-celadon-mansion"
+                ]
+            }
         ]
     },
     {
@@ -1703,7 +4656,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 135,
@@ -1714,7 +4668,8 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 136,
@@ -1725,7 +4680,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 137,
@@ -1736,7 +4692,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 138,
@@ -1750,6 +4707,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
             }
         ]
     },
@@ -1766,7 +4743,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 140,
@@ -1780,6 +4758,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
             }
         ]
     },
@@ -1796,7 +4794,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 142,
@@ -1811,6 +4810,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cinnabar-island-cinnabar-lab"
+                ]
+            }
         ]
     },
     {
@@ -1821,6 +4840,29 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-16-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-16-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-route-12-area",
+                    "kanto-route-16-area"
+                ]
             }
         ]
     },
@@ -1837,6 +4879,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "seafoam-islands-b4f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "seafoam-islands-b4f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "seafoam-islands-b4f"
+                ]
+            }
         ]
     },
     {
@@ -1851,6 +4913,26 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "power-plant-area"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "power-plant-area"
+                ]
             }
         ]
     },
@@ -1867,6 +4949,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-victory-road-2-2f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-victory-road-2-2f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-victory-road-2-2f"
+                ]
+            }
         ]
     },
     {
@@ -1878,6 +4980,35 @@
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-middle",
+                    "kanto-safari-zone-area-1-east",
+                    "kanto-safari-zone-area-2-north",
+                    "kanto-safari-zone-area-3-west"
+                ]
+            }
         ]
     },
     {
@@ -1888,6 +5019,14 @@
             {
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "yellow",
+                "locations": [
+                    "kanto-safari-zone-middle"
+                ]
             }
         ]
     },
@@ -1904,7 +5043,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 150,
@@ -1914,6 +5054,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "red",
+                "locations": [
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "blue",
+                "locations": [
+                    "cerulean-cave-b1f"
+                ]
+            },
+            {
+                "version": "yellow",
+                "locations": [
+                    "cerulean-cave-b1f"
+                ]
             }
         ]
     },
@@ -1926,6 +5086,7 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     }
 ]

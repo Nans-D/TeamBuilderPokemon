@@ -63,6 +63,7 @@
 
 ## WAP-11
 
+- Erreur pour le premier pokemon evolution
 - Revoir l'affichage des types
 - Comment rencontrer un pokemon et l'endroit ou il se trouve
 - Ajouter plus de stats dans pokemon team, revoir les logos + sheets
@@ -70,6 +71,7 @@
 
 ## WAP-12
 
+- Voir sur mobile ce que je peux faire pour le sheet
 - Moves pokemon select
 - Ajouter les facilité face aux champions / Nouvelle page ':' champion vs myTeam
 - Revoir comment l'errorResponse est envoyé
