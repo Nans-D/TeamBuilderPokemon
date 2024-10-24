@@ -8,6 +8,26 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            }
         ]
     },
     {
@@ -19,7 +39,8 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 254,
@@ -30,7 +51,8 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 255,
@@ -40,6 +62,26 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
             }
         ]
     },
@@ -56,7 +98,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 257,
@@ -71,7 +114,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 258,
@@ -81,6 +125,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-101-area"
+                ]
             }
         ]
     },
@@ -97,7 +161,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 260,
@@ -112,7 +177,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 261,
@@ -122,6 +188,40 @@
             {
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-116-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area"
+                ]
             }
         ]
     },
@@ -134,6 +234,16 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            }
         ]
     },
     {
@@ -144,6 +254,54 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-116-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-116-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area"
+                ]
             }
         ]
     },
@@ -156,6 +314,35 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area"
+                ]
+            }
         ]
     },
     {
@@ -167,6 +354,35 @@
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-104-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-104-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-101-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-104-area"
+                ]
+            }
         ]
     },
     {
@@ -177,6 +393,26 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
             }
         ]
     },
@@ -193,7 +429,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 268,
@@ -203,6 +440,26 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
             }
         ]
     },
@@ -219,7 +476,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 270,
@@ -233,6 +491,22 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-114-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-114-area"
+                ]
             }
         ]
     },
@@ -249,6 +523,20 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            }
         ]
     },
     {
@@ -264,7 +552,8 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 273,
@@ -274,6 +563,23 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-114-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area"
+                ]
             }
         ]
     },
@@ -290,6 +596,20 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            }
         ]
     },
     {
@@ -305,7 +625,8 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 276,
@@ -319,6 +640,35 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-116-area"
+                ]
             }
         ]
     },
@@ -335,6 +685,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
+            }
         ]
     },
     {
@@ -349,6 +719,119 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "mt-pyre-outside",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "mt-pyre-outside",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "mt-pyre-outside",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
             }
         ]
     },
@@ -365,6 +848,116 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            }
         ]
     },
     {
@@ -375,10 +968,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-102-area"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-102-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-102-area"
+                ]
             }
         ]
     },
@@ -390,12 +999,9 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 282,
@@ -405,12 +1011,9 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 283,
@@ -424,6 +1027,28 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area"
+                ]
             }
         ]
     },
@@ -440,7 +1065,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 285,
@@ -450,6 +1076,26 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
             }
         ]
     },
@@ -466,7 +1112,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 287,
@@ -476,6 +1123,26 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-woods-area"
+                ]
             }
         ]
     },
@@ -488,7 +1155,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 289,
@@ -499,7 +1167,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 63,
@@ -509,6 +1178,36 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-route-116-area"
+                ]
             }
         ]
     },
@@ -521,7 +1220,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 65,
@@ -532,7 +1232,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 290,
@@ -546,6 +1247,26 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
             }
         ]
     },
@@ -562,7 +1283,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 292,
@@ -577,7 +1299,8 @@
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 293,
@@ -587,6 +1310,33 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "rusturf-tunnel-area",
+                    "hoenn-victory-road-1f",
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "rusturf-tunnel-area",
+                    "hoenn-victory-road-1f",
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "rusturf-tunnel-area",
+                    "hoenn-victory-road-1f",
+                    "hoenn-route-116-area",
+                    "desert-underpass-area"
+                ]
             }
         ]
     },
@@ -599,6 +1349,27 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "desert-underpass-area"
+                ]
+            }
         ]
     },
     {
@@ -610,7 +1381,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 296,
@@ -620,6 +1392,35 @@
             {
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
             }
         ]
     },
@@ -632,6 +1433,29 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f"
+                ]
+            }
         ]
     },
     {
@@ -642,6 +1466,63 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-expansion-south"
+                ]
             }
         ]
     },
@@ -654,6 +1535,29 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            }
         ]
     },
     {
@@ -664,6 +1568,168 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-city-area",
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "sootopolis-city-area",
+                    "ever-grande-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-city-area",
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "sootopolis-city-area",
+                    "ever-grande-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-city-area",
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "sootopolis-city-area",
+                    "ever-grande-city-area",
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "dewford-town-area",
+                    "pacifidlog-town-area",
+                    "hoenn-safari-zone-expansion-south"
+                ]
             }
         ]
     },
@@ -680,6 +1746,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "sootopolis-city-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "sootopolis-city-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "sootopolis-city-area"
+                ]
+            }
         ]
     },
     {
@@ -690,12 +1776,9 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 183,
@@ -705,10 +1788,44 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-104-area",
+                    "hoenn-route-111-area",
+                    "hoenn-route-112-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-120-area",
+                    "hoenn-safari-zone-expansion-south"
+                ]
             }
         ]
     },
@@ -720,12 +1837,9 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 74,
@@ -739,6 +1853,42 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b2f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b2f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-1f",
+                    "granite-cave-b2f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "magma-hideout-area"
+                ]
             }
         ]
     },
@@ -755,6 +1905,27 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-victory-road-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-victory-road-b1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-victory-road-b1f",
+                    "magma-hideout-area"
+                ]
+            }
         ]
     },
     {
@@ -770,7 +1941,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 299,
@@ -780,6 +1952,26 @@
             {
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-b2f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-b2f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-b2f"
+                ]
             }
         ]
     },
@@ -792,6 +1984,26 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-116-area"
+                ]
+            }
         ]
     },
     {
@@ -803,7 +2015,8 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 41,
@@ -817,6 +2030,66 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-area",
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-area",
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-area",
+                    "granite-cave-1f",
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f",
+                    "hoenn-altering-cave-a"
+                ]
             }
         ]
     },
@@ -833,6 +2106,74 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "seafloor-cavern-area",
+                    "cave-of-origin-entrance",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f",
+                    "shoal-cave-area",
+                    "shoal-cave-b1f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            }
         ]
     },
     {
@@ -848,7 +2189,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 72,
@@ -862,6 +2204,124 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "sootopolis-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "sootopolis-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "abandoned-ship-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
             }
         ]
     },
@@ -878,6 +2338,26 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "abandoned-ship-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "abandoned-ship-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "abandoned-ship-area"
+                ]
+            }
         ]
     },
     {
@@ -893,6 +2373,38 @@
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-b2f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-b2f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            }
         ]
     },
     {
@@ -903,10 +2415,30 @@
             {
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "cave-of-origin-1f",
+                    "cave-of-origin-b1f",
+                    "cave-of-origin-b2f",
+                    "cave-of-origin-b3f",
+                    "hoenn-victory-road-b2f",
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "emerald",
+                "locations": [
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
             }
         ]
     },
@@ -923,6 +2455,35 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "granite-cave-b1f",
+                    "granite-cave-b2f",
+                    "granite-cave-1fsmall-room",
+                    "hoenn-victory-road-1f"
+                ]
+            }
         ]
     },
     {
@@ -937,6 +2498,32 @@
             {
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-victory-road-1f",
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
             }
         ]
     },
@@ -953,7 +2540,8 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 66,
@@ -963,6 +2551,31 @@
             {
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area",
+                    "hoenn-route-112-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area",
+                    "hoenn-route-112-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area"
+                ]
             }
         ]
     },
@@ -975,7 +2588,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 68,
@@ -986,7 +2600,8 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 307,
@@ -1000,6 +2615,22 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mt-pyre-outside",
+                    "hoenn-victory-road-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mt-pyre-outside",
+                    "hoenn-victory-road-b1f"
+                ]
             }
         ]
     },
@@ -1016,6 +2647,22 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-victory-road-b1f",
+                    "hoenn-victory-road-b2f"
+                ]
+            }
         ]
     },
     {
@@ -1026,6 +2673,29 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-118-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-118-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-118-area"
+                ]
             }
         ]
     },
@@ -1038,6 +2708,26 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-118-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-118-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-118-area"
+                ]
+            }
         ]
     },
     {
@@ -1049,6 +2739,26 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            }
         ]
     },
     {
@@ -1059,6 +2769,26 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
             }
         ]
     },
@@ -1075,6 +2805,29 @@
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
+            }
         ]
     },
     {
@@ -1090,6 +2843,26 @@
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            }
         ]
     },
     {
@@ -1100,6 +2873,29 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "new-mauville-entrance",
+                    "new-mauville-area"
+                ]
             }
         ]
     },
@@ -1112,6 +2908,26 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "new-mauville-area"
+                ]
+            }
         ]
     },
     {
@@ -1123,6 +2939,26 @@
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            }
         ]
     },
     {
@@ -1133,6 +2969,26 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
             }
         ]
     },
@@ -1149,6 +3005,53 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-110-area",
+                    "hoenn-route-117-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            }
         ]
     },
     {
@@ -1163,6 +3066,41 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area",
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
             }
         ]
     },
@@ -1179,7 +3117,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 182,
@@ -1190,7 +3129,8 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 84,
@@ -1204,6 +3144,32 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
             }
         ]
     },
@@ -1220,6 +3186,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            }
         ]
     },
     {
@@ -1235,6 +3221,20 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-117-area"
+                ]
+            }
         ]
     },
     {
@@ -1245,6 +3245,26 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-110-area"
+                ]
             }
         ]
     },
@@ -1257,7 +3277,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 318,
@@ -1271,6 +3292,29 @@
             {
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area"
+                ]
             }
         ]
     },
@@ -1287,6 +3331,68 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mossdeep-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mossdeep-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mossdeep-city-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-118-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "pacifidlog-town-area"
+                ]
+            }
         ]
     },
     {
@@ -1298,6 +3404,113 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "slateport-city-area",
+                    "lilycove-city-area",
+                    "mossdeep-city-area",
+                    "ever-grande-city-area",
+                    "seafloor-cavern-area",
+                    "shoal-cave-area",
+                    "hoenn-route-103-area",
+                    "hoenn-route-105-area",
+                    "hoenn-route-106-area",
+                    "hoenn-route-107-area",
+                    "hoenn-route-108-area",
+                    "hoenn-route-109-area",
+                    "hoenn-route-110-area",
+                    "hoenn-route-115-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-122-area",
+                    "hoenn-route-123-area",
+                    "hoenn-route-124-area",
+                    "hoenn-route-125-area",
+                    "hoenn-route-126-area",
+                    "hoenn-route-127-area",
+                    "hoenn-route-128-area",
+                    "hoenn-route-129-area",
+                    "hoenn-route-130-area",
+                    "hoenn-route-131-area",
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area",
+                    "dewford-town-area",
+                    "pacifidlog-town-area"
+                ]
+            }
         ]
     },
     {
@@ -1308,6 +3521,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-129-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-129-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-129-area"
+                ]
             }
         ]
     },
@@ -1324,6 +3557,32 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area",
+                    "hoenn-route-112-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area",
+                    "hoenn-route-112-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "jagged-pass-area",
+                    "fiery-path-area",
+                    "hoenn-route-112-area"
+                ]
+            }
         ]
     },
     {
@@ -1339,7 +3598,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 218,
@@ -1349,6 +3609,27 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "fiery-path-area",
+                    "hoenn-route-113-area"
+                ]
             }
         ]
     },
@@ -1365,7 +3646,8 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 324,
@@ -1375,6 +3657,27 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "fiery-path-area",
+                    "magma-hideout-area"
+                ]
             }
         ]
     },
@@ -1387,6 +3690,26 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            }
         ]
     },
     {
@@ -1398,7 +3721,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 109,
@@ -1408,6 +3732,26 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "fiery-path-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "fiery-path-area"
+                ]
             }
         ]
     },
@@ -1420,7 +3764,8 @@
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 325,
@@ -1430,6 +3775,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "jagged-pass-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "jagged-pass-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "jagged-pass-area"
+                ]
             }
         ]
     },
@@ -1442,7 +3807,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 27,
@@ -1452,6 +3818,29 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-111-area",
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-111-area",
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-111-area",
+                    "mirage-tower-area"
+                ]
             }
         ]
     },
@@ -1464,7 +3853,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 327,
@@ -1474,6 +3864,26 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
             }
         ]
     },
@@ -1490,6 +3900,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-113-area"
+                ]
+            }
         ]
     },
     {
@@ -1500,6 +3930,27 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-111-area",
+                    "mirage-tower-area"
+                ]
             }
         ]
     },
@@ -1516,7 +3967,8 @@
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 330,
@@ -1531,7 +3983,8 @@
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 331,
@@ -1541,6 +3994,26 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
             }
         ]
     },
@@ -1557,7 +4030,8 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 333,
@@ -1571,6 +4045,29 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-114-area",
+                    "hoenn-route-115-area"
+                ]
             }
         ]
     },
@@ -1587,6 +4084,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "sky-pillar-5f"
+                ]
+            }
         ]
     },
     {
@@ -1598,6 +4115,14 @@
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            }
         ]
     },
     {
@@ -1608,6 +4133,20 @@
             {
                 "name": "poison",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/4\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-114-area"
+                ]
             }
         ]
     },
@@ -1624,6 +4163,17 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room"
+                ]
+            }
         ]
     },
     {
@@ -1638,6 +4188,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room"
+                ]
             }
         ]
     },
@@ -1654,6 +4224,47 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-area",
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f",
+                    "hoenn-route-111-area",
+                    "hoenn-route-114-area",
+                    "hoenn-route-120-area"
+                ]
+            }
         ]
     },
     {
@@ -1669,6 +4280,35 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-back",
+                    "meteor-falls-b1f",
+                    "meteor-falls-backsmall-room",
+                    "hoenn-victory-road-b2f"
+                ]
+            }
         ]
     },
     {
@@ -1679,6 +4319,32 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-117-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "petalburg-city-area",
+                    "hoenn-route-102-area",
+                    "hoenn-route-117-area"
+                ]
             }
         ]
     },
@@ -1695,7 +4361,8 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 343,
@@ -1709,6 +4376,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-111-area"
+                ]
             }
         ]
     },
@@ -1725,6 +4412,32 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            }
         ]
     },
     {
@@ -1739,6 +4452,26 @@
             {
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "rustboro-city-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "rustboro-city-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "rustboro-city-area"
+                ]
             }
         ]
     },
@@ -1755,7 +4488,8 @@
                 "name": "grass",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/12\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 347,
@@ -1769,6 +4503,26 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "rustboro-city-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "rustboro-city-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "rustboro-city-area"
+                ]
             }
         ]
     },
@@ -1785,7 +4539,8 @@
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 174,
@@ -1795,12 +4550,9 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 39,
@@ -1810,10 +4562,26 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
             },
             {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-115-area"
+                ]
             }
         ]
     },
@@ -1825,12 +4593,9 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
-            },
-            {
-                "name": "fairy",
-                "url": "https:\/\/pokeapi.co\/api\/v2\/type\/18\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 349,
@@ -1840,6 +4605,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
             }
         ]
     },
@@ -1852,7 +4637,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 351,
@@ -1862,6 +4648,26 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-119-weather-institute"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-119-weather-institute"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-119-weather-institute"
+                ]
             }
         ]
     },
@@ -1873,6 +4679,26 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "lilycove-city-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "lilycove-city-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "lilycove-city-area"
+                ]
             }
         ]
     },
@@ -1889,7 +4715,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 352,
@@ -1899,6 +4726,38 @@
             {
                 "name": "normal",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/1\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-118-area",
+                    "hoenn-route-119-area",
+                    "hoenn-route-120-area",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
             }
         ]
     },
@@ -1911,6 +4770,47 @@
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mt-pyre-1f",
+                    "mt-pyre-2f",
+                    "mt-pyre-3f",
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-outside",
+                    "mt-pyre-summit",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mt-pyre-1f",
+                    "mt-pyre-2f",
+                    "mt-pyre-3f",
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-outside",
+                    "mt-pyre-summit",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "ruby",
+                "locations": [
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-summit"
+                ]
+            }
         ]
     },
     {
@@ -1921,6 +4821,24 @@
             {
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
             }
         ]
     },
@@ -1933,6 +4851,41 @@
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mt-pyre-1f",
+                    "mt-pyre-2f",
+                    "mt-pyre-3f",
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-outside",
+                    "mt-pyre-summit",
+                    "hoenn-route-121-area",
+                    "hoenn-route-123-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-summit"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mt-pyre-4f",
+                    "mt-pyre-5f",
+                    "mt-pyre-6f",
+                    "mt-pyre-summit"
+                ]
+            }
         ]
     },
     {
@@ -1943,6 +4896,16 @@
             {
                 "name": "ghost",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/8\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "sky-pillar-1f",
+                    "sky-pillar-3f",
+                    "sky-pillar-5f"
+                ]
             }
         ]
     },
@@ -1959,6 +4922,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-119-area"
+                ]
+            }
         ]
     },
     {
@@ -1969,6 +4952,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mt-pyre-summit"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mt-pyre-summit"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mt-pyre-summit"
+                ]
             }
         ]
     },
@@ -1981,6 +4984,26 @@
                 "name": "dark",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/17\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-120-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-120-area"
+                ]
+            }
         ]
     },
     {
@@ -1991,6 +5014,26 @@
             {
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mt-pyre-outside"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mt-pyre-outside"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mt-pyre-outside"
+                ]
             }
         ]
     },
@@ -2003,7 +5046,8 @@
                 "name": "fire",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/10\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 172,
@@ -2014,7 +5058,8 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 25,
@@ -2024,6 +5069,29 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
             }
         ]
     },
@@ -2036,7 +5104,8 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 54,
@@ -2046,6 +5115,29 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area",
+                    "hoenn-safari-zone-sw"
+                ]
             }
         ]
     },
@@ -2058,6 +5150,26 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            }
         ]
     },
     {
@@ -2069,6 +5181,29 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-130-area",
+                    "lavaridge-town-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-130-area",
+                    "lavaridge-town-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-130-area",
+                    "lavaridge-town-area"
+                ]
+            }
         ]
     },
     {
@@ -2079,6 +5214,29 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
             }
         ]
     },
@@ -2095,6 +5253,32 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area",
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            }
         ]
     },
     {
@@ -2109,6 +5293,26 @@
             {
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
             }
         ]
     },
@@ -2125,6 +5329,29 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-sw",
+                    "hoenn-safari-zone-se"
+                ]
+            }
         ]
     },
     {
@@ -2135,6 +5362,26 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
             }
         ]
     },
@@ -2147,7 +5394,8 @@
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 127,
@@ -2157,6 +5405,26 @@
             {
                 "name": "bug",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/7\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
             }
         ]
     },
@@ -2173,6 +5441,26 @@
                 "name": "fighting",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/2\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-neacro-bike-area"
+                ]
+            }
         ]
     },
     {
@@ -2187,6 +5475,26 @@
             {
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-safari-zone-nwmach-bike-area"
+                ]
             }
         ]
     },
@@ -2203,7 +5511,8 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 361,
@@ -2213,6 +5522,26 @@
             {
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "shoal-cave-b1f"
+                ]
             }
         ]
     },
@@ -2225,7 +5554,8 @@
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 363,
@@ -2239,6 +5569,29 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "shoal-cave-area",
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "shoal-cave-area",
+                    "shoal-cave-b1f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "shoal-cave-area",
+                    "shoal-cave-b1f"
+                ]
             }
         ]
     },
@@ -2255,7 +5608,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 365,
@@ -2270,7 +5624,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 366,
@@ -2280,6 +5635,29 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
             }
         ]
     },
@@ -2292,7 +5670,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 368,
@@ -2303,7 +5682,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 369,
@@ -2317,6 +5697,29 @@
             {
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
             }
         ]
     },
@@ -2333,6 +5736,29 @@
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
+            }
         ]
     },
     {
@@ -2347,6 +5773,29 @@
             {
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-124-underwater",
+                    "hoenn-route-126-underwater"
+                ]
             }
         ]
     },
@@ -2363,7 +5812,8 @@
                 "name": "electric",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/13\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 370,
@@ -2373,6 +5823,29 @@
             {
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "ever-grande-city-area",
+                    "hoenn-route-128-area"
+                ]
             }
         ]
     },
@@ -2385,6 +5858,32 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "hoenn-route-132-area",
+                    "hoenn-route-133-area",
+                    "hoenn-route-134-area"
+                ]
+            }
         ]
     },
     {
@@ -2396,7 +5895,8 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 230,
@@ -2411,7 +5911,8 @@
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 371,
@@ -2421,6 +5922,26 @@
             {
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "meteor-falls-backsmall-room"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "meteor-falls-backsmall-room"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "meteor-falls-backsmall-room"
+                ]
             }
         ]
     },
@@ -2433,7 +5954,8 @@
                 "name": "dragon",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/16\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 373,
@@ -2448,7 +5970,8 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 374,
@@ -2462,6 +5985,26 @@
             {
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "mossdeep-city-stevens-house"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "mossdeep-city-stevens-house"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "mossdeep-city-stevens-house"
+                ]
             }
         ]
     },
@@ -2478,7 +6021,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 376,
@@ -2493,7 +6037,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 377,
@@ -2503,6 +6048,26 @@
             {
                 "name": "rock",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/6\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "desert-ruins-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "desert-ruins-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "desert-ruins-area"
+                ]
             }
         ]
     },
@@ -2515,6 +6080,26 @@
                 "name": "ice",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/15\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "island-cave-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "island-cave-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "island-cave-area"
+                ]
+            }
         ]
     },
     {
@@ -2525,6 +6110,26 @@
             {
                 "name": "steel",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/9\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "ancient-tomb-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "ancient-tomb-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "ancient-tomb-area"
+                ]
             }
         ]
     },
@@ -2541,6 +6146,27 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "southern-island-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "southern-island-area",
+                    "roaming-hoenn-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "roaming-hoenn-area"
+                ]
+            }
         ]
     },
     {
@@ -2556,6 +6182,27 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "southern-island-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "southern-island-area",
+                    "roaming-hoenn-area"
+                ]
+            },
+            {
+                "version": "ruby",
+                "locations": [
+                    "roaming-hoenn-area"
+                ]
+            }
         ]
     },
     {
@@ -2567,6 +6214,20 @@
                 "name": "water",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/11\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "sapphire",
+                "locations": [
+                    "cave-of-origin-b4f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "marine-cave-area"
+                ]
+            }
         ]
     },
     {
@@ -2577,6 +6238,20 @@
             {
                 "name": "ground",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/5\/"
+            }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "cave-of-origin-b4f"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "terra-cave-area"
+                ]
             }
         ]
     },
@@ -2593,6 +6268,26 @@
                 "name": "flying",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/3\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "sky-pillar-apex"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "sky-pillar-apex"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "sky-pillar-apex"
+                ]
+            }
         ]
     },
     {
@@ -2608,7 +6303,8 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
-        ]
+        ],
+        "encounters": []
     },
     {
         "id": 386,
@@ -2619,6 +6315,26 @@
                 "name": "psychic",
                 "url": "https:\/\/pokeapi.co\/api\/v2\/type\/14\/"
             }
+        ],
+        "encounters": [
+            {
+                "version": "ruby",
+                "locations": [
+                    "birth-island-area"
+                ]
+            },
+            {
+                "version": "sapphire",
+                "locations": [
+                    "birth-island-area"
+                ]
+            },
+            {
+                "version": "emerald",
+                "locations": [
+                    "birth-island-area"
+                ]
+            }   
         ]
     }
 ]
