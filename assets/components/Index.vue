@@ -407,6 +407,17 @@ onMounted(() => {
                     </div>
                   </div>
                 </div>
+                <div class="d-block d-lg-none mt-3">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-sm"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    style="font-size: 10px"
+                  >
+                    See more
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -485,6 +496,152 @@ onMounted(() => {
       </div>
     </div>
   </div>
+
+  <!-- MODAL SEE MORE MOBILE -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div id="modalContent" class="modal-content">
+        <div class="modal-header">
+          <h1
+            class="modal-title fs-5"
+            id="exampleModalLabel"
+            v-if="myTeam.length > 0"
+          >
+            {{ myTeam[myTeam.length - 1]["name"] }}
+          </h1>
+          <div class="ms-auto" data-bs-theme="dark">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+        <div class="modal-body overflow-y-auto py-0">
+          <div class="row justify-content-center">
+            <div
+              class="col-12 d-flex justify-content-center"
+              v-if="myTeam.length > 0"
+            >
+              <img :src="myTeam[myTeam.length - 1]['image']" alt="" />
+            </div>
+
+            <div
+              class="col-auto px-1 align-self-center"
+              v-for="type in secondApiData"
+            >
+              <img
+                :src="
+                  type['sprites']
+                    ? type['sprites']['generation-iii']['firered-leafgreen'][
+                        'name_icon'
+                      ]
+                    : ''
+                "
+                alt=""
+              />
+            </div>
+
+            <div class="col-12">
+              <table class="w-100">
+                <tbody>
+                  <!-- Boucle sur les stats pour afficher chaque nom et sa valeur dans deux colonnes -->
+                  <tr
+                    v-for="stats in dataApiPokemon.stats"
+                    :key="stats.stat.name"
+                  >
+                    <th class="text-size-array" scope="row">
+                      {{ stats.stat.name.toUpperCase() }}
+                    </th>
+                    <td class="text-size-array text-center">
+                      {{ stats.base_stat }}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 my-3">
+              <div
+                class="row justify-content-center"
+                v-if="urlSpecies.length > 0"
+              >
+                <div
+                  class="col-3 p-0 d-flex justify-content-center"
+                  v-for="specie in urlSpecies"
+                  :key="specie.id"
+                >
+                  <img
+                    v-if="pokemonsNewArray[specie.id]"
+                    :src="pokemonsNewArray[specie.id].image"
+                    alt="Pokemon"
+                    class=""
+                    style="
+                      width: 70px;
+                      border: 2px solid #104d87;
+                      border-radius: 50%;
+                      -moz-border-radius: 50%;
+                      -webkit-border-radius: 50%;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+            <table
+              class="col-12 mb-3"
+              style="margin: 0 auto; width: auto"
+              v-if="myTeam.length > 0"
+            >
+              <thead>
+                <tr>
+                  <th
+                    class="text-center"
+                    style="font-size: 10px"
+                    v-for="encounter in myTeam[myTeam.length - 1]['encounters']"
+                    :key="encounter.version"
+                  >
+                    {{ encounter.version.toUpperCase() }}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    v-for="encounter in myTeam[myTeam.length - 1]['encounters']"
+                    :key="encounter.version"
+                  >
+                    <span
+                      v-for="location in encounter['locations']"
+                      :key="location"
+                      class="d-flex flex-column"
+                      style="font-size: 10px"
+                    >
+                      {{ location.replaceAll("-", " ") }}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -513,6 +670,11 @@ onMounted(() => {
   }
   .margin-bottom-mobile {
     margin-bottom: 150px;
+  }
+  .modal {
+    --bs-modal-bg: #111927 !important;
+    /* background-color: #111927 !important; */
+    color: white !important;
   }
 }
 
