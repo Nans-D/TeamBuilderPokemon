@@ -12,6 +12,7 @@ import Index from "./components/index.vue";
 import PokemonTeams from "./components/PokemonTeams.vue";
 import Toast from "vue-toastification";
 import Login from "./components/Login.vue";
+import myTeamVs from "./components/myTeamVs.vue";
 // Import the CSS or use your own!
 import "vue-toastification/dist/index.css";
 
@@ -42,4 +43,8 @@ if (document.getElementById("app")) {
 if (document.getElementById("login-app")) {
   createApp(Login).mount("#login-app");
   createApp(Login).use(Toast, options);
+}
+
+if (document.getElementById("myTeamVs-app")) {
+  createApp(myTeamVs).mount("#myTeamVs-app");
 }

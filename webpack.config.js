@@ -54,7 +54,7 @@ Encore
 
   .copyFiles({
     from: "./assets/images", // Dossier source
-    to: "images/[path][name].[hash:8].[ext]",
+    to: "images/[path][name].[ext]",
   })
   // enables and configure @babel/preset-env polyfills
   .configureBabelPresetEnv((config) => {

@@ -1,168 +1,323 @@
 [
-    {
-      "region": "Kanto",
-      "dressors": [
-        {
-          "stage_1": [
-            {
-              "name": "Brock",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_2": [
-            {
-              "name": "Misty",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_3": [
-            {
-              "name": "Lt. Surge",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_4": [
-            {
-              "name": "Erika",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_5": [
-            {
-              "name": "Koga",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["1", "3"]
-            },
-            {
-              "name": "Janine",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["2", "4"]
-            }
-          ],
-          "stage_6": [
-            {
-              "name": "Sabrina",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_7": [
-            {
-              "name": "Blaine",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_8": [
-            {
-              "name": "Giovanni",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["1", "3"]
-            },
-            {
-              "name": "Blue",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["2", "4"]
-            }
-          ],
-          "indigo_league": [
-            {
-              "dressors": [
-                {
-                  "name": "Lorelei",
-                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-                  "generation": [1, 3]
-                },
-                {
-                  "name": "Bruno",
-                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-                  "generation": [1, 3]
-                },
-                {
-                  "name": "Agatha",
-                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-                  "generation": [1, 3]
-                },
-                {
-                  "name": "Brock",
-                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-                  "generation": [1, 3]
-                },
-                {
-                  "name": "Brock",
-                  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-                  "generation": [1, 2]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "region": "Johto",
-      "dressors": [
-        {
-          "stage_1": [
-            {
-              "name": "Brock",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_2": [
-            {
-              "name": "Misty",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_3": [
-            {
-              "name": "Lt. Surge",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_4": [
-            {
-              "name": "Erika",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_5": [
-            {
-              "name": "Koga",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["1", "3"]
-            },
-            {
-              "name": "Janine",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["2", "4"]
-            }
-          ],
-          "stage_6": [
-            {
-              "name": "Sabrina",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_7": [
-            {
-              "name": "Blaine",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png"
-            }
-          ],
-          "stage_8": [
-            {
-              "name": "Giovanni",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["1", "3"]
-            },
-            {
-              "name": "Blue",
-              "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
-              "generation": ["2", "4"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-  
+  {
+    "region": "Kanto",
+    "dressors": [
+      {
+        "stage_1": [
+          {
+            "name": "Brock",
+            "image": "/build/images/brock.png",
+            "type": "rock"
+          }
+        ],
+        "stage_2": [
+          {
+            "name": "Misty",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "water"
+          }
+        ],
+        "stage_3": [
+          {
+            "name": "Lt.Surge",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "electric"
+          }
+        ],
+        "stage_4": [
+          {
+            "name": "Erika",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "grass"
+          }
+        ],
+        "stage_5": [
+          {
+            "name": "Koga",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["1", "3"],
+            "type": "poison"
+          },
+          {
+            "name": "Janine",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["2", "4"],
+            "type": "poison"
+          }
+        ],
+        "stage_6": [
+          {
+            "name": "Sabrina",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "psychic"
+          }
+        ],
+        "stage_7": [
+          {
+            "name": "Blaine",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "fire"
+          }
+        ],
+        "stage_8": [
+          {
+            "name": "Giovanni",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["1", "3"],
+            "type": "ground"
+          },
+          {
+            "name": "Blue",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["2", "4"],
+            "type": "???"
+          }
+        ],
+        "indigo_league": [
+          {
+            "dressors": [
+              {
+                "name": "Lorelei",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [1, 3],
+                "type": "ice"
+              },
+              {
+                "name": "Bruno",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [1, 3],
+                "type": "fighting"
+              },
+              {
+                "name": "Agatha",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [1, 3],
+                "type": "ghost"
+              },
+              {
+                "name": "Lance",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [1, 3],
+                "type": "dragon"
+              },
+              {
+                "name": "Blue",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [1, 3],
+                "type": "???"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "Johto",
+    "dressors": [
+      {
+        "stage_1": [
+          {
+            "name": "Falkner",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "flying"
+          }
+        ],
+        "stage_2": [
+          {
+            "name": "Misty",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "bug"
+          }
+        ],
+        "stage_3": [
+          {
+            "name": "Whithney",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "normal"
+          }
+        ],
+        "stage_4": [
+          {
+            "name": "Morty",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "ghost"
+          }
+        ],
+        "stage_5": [
+          {
+            "name": "Chuck",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["1", "3"],
+            "type": "fighting"
+          }
+        ],
+        "stage_6": [
+          {
+            "name": "Jasmine",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "steel"
+          }
+        ],
+        "stage_7": [
+          {
+            "name": "Pryce",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "ice"
+          }
+        ],
+        "stage_8": [
+          {
+            "name": "Clair",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "dragon"
+          }
+        ],
+        "indigo_league": [
+          {
+            "dressors": [
+              {
+                "name": "Will",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+                "type": "psychic"
+              },
+              {
+                "name": "Koga",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+
+                "generation": [2, 4],
+                "type": "poison"
+              },
+              {
+                "name": "Bruno",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+
+                "type": "fighting"
+              },
+              {
+                "name": "Karen",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+
+                "generation": [2, 4],
+                "type": "dark"
+              },
+              {
+                "name": "Lance",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+
+                "type": "dragon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "hoenn",
+    "dressors": [
+      {
+        "stage_1": [
+          {
+            "name": "Falkner",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "flying"
+          }
+        ],
+        "stage_2": [
+          {
+            "name": "Misty",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "bug"
+          }
+        ],
+        "stage_3": [
+          {
+            "name": "Whithney",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "normal"
+          }
+        ],
+        "stage_4": [
+          {
+            "name": "Morty",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "ghost"
+          }
+        ],
+        "stage_5": [
+          {
+            "name": "Chuck",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "generation": ["1", "3"],
+            "type": "fighting"
+          }
+        ],
+        "stage_6": [
+          {
+            "name": "Jasmine",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "steel"
+          }
+        ],
+        "stage_7": [
+          {
+            "name": "Pryce",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "ice"
+          }
+        ],
+        "stage_8": [
+          {
+            "name": "Clair",
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "type": "dragon"
+          }
+        ],
+        "indigo_league": [
+          {
+            "dressors": [
+              {
+                "name": "Will",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+                "type": "psychic"
+              },
+              {
+                "name": "Koga",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+
+                "generation": [2, 4],
+                "type": "poison"
+              },
+              {
+                "name": "Bruno",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+
+                "type": "fighting"
+              },
+              {
+                "name": "Karen",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+
+                "generation": [2, 4],
+                "type": "dark"
+              },
+              {
+                "name": "Lance",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+                "generation": [2, 4],
+
+                "type": "dragon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

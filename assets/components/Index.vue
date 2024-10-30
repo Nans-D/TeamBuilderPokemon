@@ -363,6 +363,9 @@ onMounted(() => {
       <div v-show="Object.keys(dataApiPokemon).length <= 0">
         No selected pokemon
       </div>
+
+      <!-- SHEETS -->
+
       <div
         id="stickyTop"
         class="row sticky-top p-3 p-lg-0"
