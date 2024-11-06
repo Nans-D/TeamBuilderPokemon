@@ -4,7 +4,7 @@
 {% endblock %}
 
 {% block body %}
-	<div id="myTeamVs-app" data-gym-leaders={{ gymLeaders|json_encode }} {# data-pokemon-teams={{ pokemon_teams|json_encode }} #}></div>
+	<div id="myTeamVs-app" data-teams-pokemon={{teams|json_encode}} data-gym-leaders={{ gymLeaders|json_encode }} {# data-pokemon-teams={{ pokemon_teams|json_encode }} #}></div>
 
 	{% block javascripts %}
 		{{ encore_entry_script_tags('app') }}

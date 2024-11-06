@@ -13,34 +13,34 @@
         "stage_2": [
           {
             "name": "Misty",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/misty.png",
             "type": "water"
           }
         ],
         "stage_3": [
           {
             "name": "Lt.Surge",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/lt_surge.png",
             "type": "electric"
           }
         ],
         "stage_4": [
           {
             "name": "Erika",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/erika.png",
             "type": "grass"
           }
         ],
         "stage_5": [
           {
             "name": "Koga",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/koga.png",
             "generation": ["1", "3"],
             "type": "poison"
           },
           {
             "name": "Janine",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/misty.png",
             "generation": ["2", "4"],
             "type": "poison"
           }
@@ -48,21 +48,21 @@
         "stage_6": [
           {
             "name": "Sabrina",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/sabrina.png",
             "type": "psychic"
           }
         ],
         "stage_7": [
           {
             "name": "Blaine",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/blaine.png",
             "type": "fire"
           }
         ],
         "stage_8": [
           {
             "name": "Giovanni",
-            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/dresser/front_default.png",
+            "image": "/build/images/giovanni.png",
             "generation": ["1", "3"],
             "type": "ground"
           },
