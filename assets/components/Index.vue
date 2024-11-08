@@ -1,8 +1,7 @@
 <script setup>
-import Header from "./Header.vue";
-import { ref } from "vue";
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
 import { useToast } from "vue-toastification";
+import Header from "./Header.vue";
 
 const pokemons = ref([]);
 const myTeam = ref([]);
@@ -16,6 +15,22 @@ const urlSpecies = ref([]);
 const showSheets = ref(true);
 let pokemonsNewArray = ref({});
 const currentRequestId = ref(0);
+const selectedVersion = ref(null);
+
+const version = () => {
+  const versionId = selectedVersion.value;
+  window.location.href = `/${versionId}`;
+};
+
+const initVersionFromUrl = () => {
+  const url = window.location.pathname;
+  const versionId = url.split("/").pop(); // Obtient la dernière partie de l'URL (ID)
+  if (["1", "2", "3", "4"].includes(versionId)) {
+    selectedVersion.value = versionId;
+  } else {
+    selectedVersion.value = "1"; // Valeur par défaut si l'ID n'est pas valide
+  }
+};
 
 const triggerInfoToast = (type, error) => {
   if (type == "success") {
@@ -260,6 +275,8 @@ onMounted(() => {
   if (pokemonsData) {
     pokemons.value = JSON.parse(pokemonsData);
   }
+
+  initVersionFromUrl();
 });
 </script>
 
@@ -268,6 +285,17 @@ onMounted(() => {
     <div class="col-12 col-lg-8 position-relative">
       <div class="container p-0">
         <Header />
+        <select
+          class="form-select"
+          v-model="selectedVersion"
+          id="selectVersion"
+          @change="version"
+        >
+          <option value="1">Red, Blue, Yellow</option>
+          <option value="2">Gold, Silver, Crystal</option>
+          <option value="3">Ruby, Sapphire, Emerald</option>
+          <option value="4">Diamond, Pearl, Platinum</option>
+        </select>
         <div style="background-color: #111927">
           <div
             id="invisibleTeamBuilder"

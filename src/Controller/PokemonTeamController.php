@@ -45,15 +45,21 @@ class PokemonTeamController extends AbstractController
             $teamsData[] = [
                 'id' => $team['id'],
                 'user_id' => $team['user_id'], // On utilise 'user_id' provenant de la jointure
-                'pokemons' => $pokemons
+                'pokemons' => $pokemons,
+
             ];
         }
+
+        $file = file_get_contents('../public/data/pokemon_dressers.json');
+        $fileGymLeader = json_decode($file, true);
 
         // dd($fileTypeJson, $teamsData);
 
         return $this->render('pokemon_team/index.html.twig', [
             'pokemon_teams' => $teamsData,
             'types' => $fileTypeJson,
+            'gymLeaders' => $fileGymLeader,
+
         ]);
     }
 
