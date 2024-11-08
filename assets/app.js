@@ -8,11 +8,11 @@
 import "./styles/app.css";
 
 import { createApp } from "vue";
-import Index from "./components/index.vue";
-import PokemonTeams from "./components/PokemonTeams.vue";
 import Toast from "vue-toastification";
+import Index from "./components/index.vue";
 import Login from "./components/Login.vue";
-import myTeamVs from "./components/myTeamVs.vue";
+import PokemonTeams from "./components/PokemonTeams.vue";
+
 // Import the CSS or use your own!
 import "vue-toastification/dist/index.css";
 

@@ -11,7 +11,9 @@ const fetchPokemonsData = async (url) => {
   if (!response.ok) {
     throw new Error(`Failed to fetch pokemons data: ${response.statusText}`);
   }
-  return await response.json();
+
+  const data = await response.json();
+  return data;
 };
 
 const props = defineProps({
@@ -28,6 +30,7 @@ const props = defineProps({
 let newPokemon = ref([]);
 
 onMounted(async () => {
+  // Traitement pour créer `newPokemon`
   for (const pokemon of props.pokemonTeam.pokemons) {
     for (const key of Object.keys(props.types)) {
       if (pokemon.types[0].name.toLowerCase() == key.toLowerCase()) {
@@ -40,13 +43,15 @@ onMounted(async () => {
     }
   }
 
-  for (let icon of Object.keys(props.types)) {
-    typesIcon.value.push(
-      await fetchPokemonsData(
-        `https://pokeapi.co/api/v2/type/${icon.toLowerCase()}/`
-      )
+  // Créer un tableau de promesses pour `Promise.all`
+  const fetchPromises = Object.keys(props.types).map((icon) => {
+    return fetchPokemonsData(
+      `https://pokeapi.co/api/v2/type/${icon.toLowerCase()}/`
     );
-  }
+  });
+
+  // Attendre que toutes les promesses soient résolues
+  typesIcon.value = await Promise.all(fetchPromises);
 });
 </script>
 
@@ -69,17 +74,18 @@ onMounted(async () => {
       <tbody>
         <tr
           class="text-center"
-          v-for="(iconUrl, typeIndex) in typesIcon"
-          :key="iconUrl"
+          v-for="(iconData, typeIndex) in typesIcon"
+          :key="typeIndex"
         >
           <td>
             <img
-              :src="
-                iconUrl['sprites']['generation-iv']['diamond-pearl'][
-                  'name_icon'
-                ]
+              :src="iconData.sprites['generation-iii']['emerald']['name_icon']"
+              alt="Type Icon"
+              v-if="
+                iconData.sprites &&
+                iconData.sprites['generation-iii'] &&
+                iconData.sprites['generation-iii']['emerald']
               "
-              alt=""
             />
           </td>
           <!-- Pour chaque Pokémon, afficher l'effet associé à ce type -->
