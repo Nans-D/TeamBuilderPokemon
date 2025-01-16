@@ -28,6 +28,16 @@ const props = defineProps({
 });
 
 let newPokemon = ref([]);
+let typesColor = ref({
+  2: "bg bg-primary",
+  0.5: "bg bg-danger",
+});
+
+function getTypeClass(effect) {
+  return typesColor.value[effect] || ""; // Retourne la classe correspondante ou une chaîne vide
+}
+
+console.log(newPokemon.value, Object.keys(typesColor.value));
 
 onMounted(async () => {
   // Traitement pour créer `newPokemon`
@@ -90,7 +100,9 @@ onMounted(async () => {
           </td>
           <!-- Pour chaque Pokémon, afficher l'effet associé à ce type -->
           <td v-for="pokemon in newPokemon" :key="pokemon.name">
-            x {{ pokemon.effects[typeIndex] }}
+            <div :class="getTypeClass(pokemon.effects[typeIndex])">
+              x {{ pokemon.effects[typeIndex] }}
+            </div>
           </td>
           <td></td>
           <td></td>
